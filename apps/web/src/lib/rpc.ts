@@ -3,6 +3,7 @@ import { RPCLink } from "@orpc/client/fetch";
 import type { ContractRouterClient } from "@orpc/contract";
 import type { AppContract } from "@rakazo/contracts";
 import { LOCAL_SETTINGS_PAGE, LOCAL_SETTINGS_RPC } from "@rakazo/contracts";
+import { withBasePath } from "./base-path";
 import { desktopBridge } from "./desktop";
 
 const SPACE_STORAGE_KEY = "rakazo:space-id";
@@ -55,7 +56,7 @@ const link = new RPCLink<RpcClientContext>({
   url: () =>
     typeof window === "undefined"
       ? "http://127.0.0.1:5173/rpc"
-      : `${window.location.origin}${window.location.pathname === LOCAL_SETTINGS_PAGE ? LOCAL_SETTINGS_RPC : "/rpc"}`,
+      : `${window.location.origin}${window.location.pathname === LOCAL_SETTINGS_PAGE ? LOCAL_SETTINGS_RPC : withBasePath("/rpc")}`,
   fetch: async (input, init, options) => {
     const request = new Request(input, init);
     if (typeof window !== "undefined" && window.location.pathname === LOCAL_SETTINGS_PAGE) {

@@ -1,4 +1,5 @@
 import { readBoundedResponseBytes } from "@rakazo/core";
+import { withBasePath } from "./base-path.js";
 import { selectedSpaceId, withSpaceHeaders } from "./rpc.js";
 import { errorText } from "./user-error.js";
 
@@ -452,7 +453,7 @@ export class Dictation {
       const audioBase64 = await blobToBase64(blob);
       if (this.token !== mine) return;
       const res = await withAbort(
-        fetch("/api/voice/transcribe", {
+        fetch(withBasePath("/api/voice/transcribe"), {
           method: "POST",
           headers: withSpaceHeaders({ "content-type": "application/json" }, spaceId),
           credentials: "include",

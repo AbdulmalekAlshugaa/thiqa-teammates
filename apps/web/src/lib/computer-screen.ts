@@ -1,3 +1,4 @@
+import { stripBasePath, withBasePath } from "./base-path";
 import { errorText } from "./user-error";
 
 export interface ComputerScreenResult {
@@ -30,7 +31,7 @@ export async function loadComputerScreen(options: {
 export function embeddableScreenUrl(url: string | null): string | null {
   if (!url) return null;
   try {
-    const parsed = new URL(url, window.location.href);
+    const parsed = new URL(withBasePath(url), window.location.href);
     const page = new URL(window.location.href);
     const local = parsed.hostname === "127.0.0.1" || parsed.hostname === "localhost";
     const pagePort = page.port || (page.protocol === "https:" ? "443" : "80");
@@ -46,7 +47,9 @@ export function embeddableScreenUrl(url: string | null): string | null {
 export function screenIframeSandbox(url: string | null) {
   if (!url) return undefined;
   try {
-    return new URL(url, window.location.href).pathname.startsWith("/novnc/")
+    return stripBasePath(new URL(withBasePath(url), window.location.href).pathname).startsWith(
+      "/novnc/",
+    )
       ? "allow-scripts allow-pointer-lock"
       : undefined;
   } catch {

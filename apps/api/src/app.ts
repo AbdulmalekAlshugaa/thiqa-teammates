@@ -103,6 +103,7 @@ import { requestLogging } from "@rakazo/logging/hono";
 import { MarkdownMemoryStore } from "@rakazo/memory";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
+import { authCookiePrefix, withAuthBasePath } from "./base-path.js";
 import { createBillingService } from "./billing.js";
 import { mountBillingRoutes } from "./billing-webhook.js";
 import type { AppEnv } from "./env.js";
@@ -400,6 +401,7 @@ export async function createApp(
     oidc: env.oidc,
     secret: env.authSecret,
     baseURL: env.authUrl,
+    cookiePrefix: authCookiePrefix(),
     webOrigin: env.webOrigin,
     signupsEnabled: env.signupsEnabled,
     signupAllowlist: env.signupAllowlist,
@@ -635,7 +637,7 @@ export async function createApp(
     if (isBlockedAuthPath(path)) {
       return c.json({ error: "Not available in version 1" }, 404);
     }
-    return auth.handler(emptyAuthBodyAsJson(c.req.raw));
+    return auth.handler(withAuthBasePath(emptyAuthBodyAsJson(c.req.raw)));
   });
   mountLocalSettings(app, { token: env.desktopStackToken, prisma, rpc });
   const requestSession = async (request: Request) => {
@@ -1092,7 +1094,10 @@ function sessionHeaders(request: Request) {
   const headers = new Headers(request.headers);
   const authz = headers.get("authorization");
   if (authz?.toLowerCase().startsWith("bearer ") && !headers.get("cookie")) {
-    headers.set("cookie", `better-auth.session_token=${authz.slice(7).trim()}`);
+    headers.set(
+      "cookie",
+      `${authCookiePrefix() ?? "better-auth"}.session_token=${authz.slice(7).trim()}`,
+    );
   }
   return headers;
 }

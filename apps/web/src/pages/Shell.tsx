@@ -164,6 +164,7 @@ import { TeachRecordingChrome, TeachStopButton } from "../components/teach/Teach
 import { readActivityMode, writeActivityMode } from "../lib/activity-mode";
 import type { ArtifactTarget } from "../lib/artifact-open";
 import { authClient } from "../lib/auth";
+import { withBasePath } from "../lib/base-path";
 import { takeInitialBootstrap } from "../lib/bootstrap";
 import {
   getBotsSidebarDensity,
@@ -1561,7 +1562,7 @@ export function ShellPage() {
       // Soft-navigate within the same space; reload only when the auth boundary changes
       // so bootstrapped bots/groups match the request header.
       if (boundaryChanged) {
-        window.location.assign(path);
+        window.location.assign(withBasePath(path));
         return;
       }
       navigate(path);
@@ -4000,14 +4001,14 @@ export function ShellPage() {
                 webhook={{
                   path:
                     typeof window !== "undefined"
-                      ? `${window.location.origin}/api/v1/bots/${active.id}/webhook`
+                      ? `${window.location.origin}${withBasePath(`/api/v1/bots/${active.id}/webhook`)}`
                       : `/api/v1/bots/${active.id}/webhook`,
                   secret: routineWebhookSecret,
                   configured: active.webhookConfigured || Boolean(routineWebhookSecret),
                 }}
                 githubPath={
                   typeof window !== "undefined"
-                    ? `${window.location.origin}/api/v1/bots/${active.id}/github`
+                    ? `${window.location.origin}${withBasePath(`/api/v1/bots/${active.id}/github`)}`
                     : `/api/v1/bots/${active.id}/github`
                 }
                 messageProviders={messagingProviders}
@@ -4393,7 +4394,7 @@ export function ShellPage() {
               if (effectiveSpaceId === targetId) {
                 // The auth boundary changed, so reload like a space switch.
                 if (selectSpace(result.activeSpaceId)) {
-                  window.location.assign("/app");
+                  window.location.assign(withBasePath("/app"));
                   return;
                 }
               }
@@ -4496,7 +4497,7 @@ export function ShellPage() {
                 await refreshBots();
                 return;
               }
-              window.location.assign("/onboarding");
+              window.location.assign(withBasePath("/onboarding"));
             }}
           />
         ) : null}

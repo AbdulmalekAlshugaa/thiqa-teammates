@@ -5,6 +5,7 @@ import { App } from "./App";
 import { DesktopUpdatesProvider } from "./components/DesktopUpdates";
 import { I18nBootstrap } from "./components/I18nBootstrap";
 import { applyUiDirection } from "./lib/apply-ui-direction";
+import { BASE_PATH } from "./lib/base-path";
 import { markAfterPaint, markOnce } from "./lib/performance";
 import { installPreloadRecovery } from "./lib/preload-recovery";
 import { applyUiAppearance, watchSystemAppearance } from "./lib/ui-appearance";
@@ -39,7 +40,7 @@ createRoot(document.getElementById("root")!).render(
           preempted indefinitely — useSearchParams/useParams then keep serving
           the stale location, so deep links (?m=) and thread switches never
           land while the URL already moved. */}
-      <BrowserRouter useTransitions={false}>
+      <BrowserRouter basename={BASE_PATH || undefined} useTransitions={false}>
         <DesktopUpdatesProvider>
           <App />
         </DesktopUpdatesProvider>

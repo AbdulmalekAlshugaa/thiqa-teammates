@@ -18,6 +18,7 @@ import type { PreviewServer, ViteDevServer } from "vite";
 import { defineConfig, loadEnv } from "vite";
 import { resolveScreenProxySecret } from "../../packages/core/src/secrets-guard.ts";
 import { createServiceLogger } from "../../packages/logging/src/env.ts";
+import { basePathPlugin, resolveBasePath } from "./src/base-path-plugin.js";
 import { collectNovncHtml, MAX_NOVNC_HTML_BYTES } from "./src/novnc-html.js";
 import {
   resolveNovncTarget,
@@ -420,8 +421,11 @@ export default defineConfig(({ mode }) => {
   const desktopStackToken =
     process.env.RAKAZO_DESKTOP_STACK_TOKEN ?? rootEnv.RAKAZO_DESKTOP_STACK_TOKEN ?? "";
   const imageTag = process.env.RAKAZO_IMAGE_TAG ?? rootEnv.RAKAZO_IMAGE_TAG ?? "edge";
+  const basePath = resolveBasePath(process.env.RAKAZO_BASE_PATH ?? rootEnv.RAKAZO_BASE_PATH);
   return {
+    base: `${basePath}/`,
     plugins: [
+      basePathPlugin(basePath),
       react(),
       babel({ plugins: ["@lingui/babel-plugin-lingui-macro"] }),
       lingui(),

@@ -35,6 +35,8 @@ export interface AuthEnv {
   oidc?: OidcConfig;
   secret: string;
   baseURL: string;
+  /** Thiqa: a distinct cookie prefix when sharing an origin with another Better Auth app. */
+  cookiePrefix?: string;
   webOrigin: string;
   signupsEnabled: string | undefined;
   signupAllowlist: string | undefined;
@@ -253,6 +255,7 @@ export function createAuth(prisma: PrismaClient, env: AuthEnv) {
     secret: env.secret,
     baseURL: env.baseURL,
     trustedOrigins: [...buildTrustedOrigins(env), "rakazo://"],
+    ...(env.cookiePrefix ? { advanced: { cookiePrefix: env.cookiePrefix } } : {}),
     account: {
       accountLinking: { enabled: true, disableImplicitLinking: true, trustedProviders: [] },
     },

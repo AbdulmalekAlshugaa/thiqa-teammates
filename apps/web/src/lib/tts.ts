@@ -1,4 +1,5 @@
 import { readBoundedResponseBytes } from "@rakazo/core";
+import { withBasePath } from "./base-path.js";
 import { rpc, selectedSpaceId, withSpaceHeaders } from "./rpc.js";
 import { errorText } from "./user-error.js";
 
@@ -170,7 +171,7 @@ export class Speaker {
     const deadline = requestDeadline(signal, VOICE_RESPONSE_TIMEOUT_MS);
     try {
       const res = await withAbort(deadline.signal, () =>
-        fetch("/api/voice/speak", {
+        fetch(withBasePath("/api/voice/speak"), {
           method: "POST",
           headers: withSpaceHeaders({ "content-type": "application/json" }, spaceId),
           credentials: "include",

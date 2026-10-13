@@ -4,6 +4,7 @@ import {
   foldComputerCommands,
   type ProductEvent,
 } from "@rakazo/contracts";
+import { withBasePath } from "./base-path";
 
 type Listener = (botId: string, command: ComputerCommand) => void;
 
@@ -98,7 +99,7 @@ export function formatComputerCommand(command: ComputerCommand, labels: Computer
 /** The sealed capability page and its websocket share one directory on the web origin. */
 export function terminalSocketUrl(capabilityUrl: string, base: string): string | null {
   try {
-    const url = new URL("websockify", new URL(capabilityUrl, base));
+    const url = new URL("websockify", new URL(withBasePath(capabilityUrl), base));
     if (url.protocol !== "http:" && url.protocol !== "https:") return null;
     url.protocol = url.protocol === "https:" ? "wss:" : "ws:";
     url.search = "";

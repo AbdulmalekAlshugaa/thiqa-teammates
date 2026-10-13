@@ -4,6 +4,7 @@ import { Button, Input, Label } from "@rakazo/ui-web";
 import { useEffect, useState } from "react";
 import { fetchAccountSecurity, requestAccountDeletionCode } from "../lib/account-security";
 import { authClient } from "../lib/auth";
+import { withBasePath } from "../lib/base-path";
 import { runSsoFlow } from "../lib/sso-flow";
 import { authErrorText } from "../lib/user-error";
 
@@ -177,7 +178,7 @@ export function AccountAccess({
                 );
                 if (result.error)
                   throw new Error(authErrorText(result.error, t`Could not continue`));
-                window.location.assign("/sign-in");
+                window.location.assign(withBasePath("/sign-in"));
               })
             }
           >

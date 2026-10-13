@@ -3,7 +3,8 @@
 # Upstream's publish-server-image.yml stays untouched so weekly merges stay clean. It derives the
 # image name from the repository, and this fork's owner name has capitals, which an image
 # reference cannot. So this workflow names the image explicitly, in lowercase, and builds only the
-# app image for linux/amd64, which is what the hosted deployment runs.
+# app image for linux/amd64, which is what the hosted deployment runs. A second tag (`main-teammates`)
+# is built with RAKAZO_BASE_PATH=/teammates for serving inside the Foundry Sales origin.
 name: thiqa-publish-image
 
 on:
@@ -23,12 +24,22 @@ concurrency:
 
 jobs:
   publish:
-    name: Publish app image
+    name: Publish app image${{ matrix.suffix }}
     runs-on: ubuntu-latest
     timeout-minutes: 90
     permissions:
       contents: read
       packages: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # Served at the root of its own origin.
+          - suffix: ""
+            base_path: ""
+          # Served at /teammates inside the Foundry Sales origin.
+          - suffix: "-teammates"
+            base_path: "/teammates"
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
         with:
@@ -45,8 +56,8 @@ jobs:
         with:
           images: ${{ env.IMAGE }}
           tags: |
-            type=raw,value=main,enable=${{ github.ref == 'refs/heads/main' }}
-            type=sha,prefix=sha-,format=long
+            type=raw,value=main${{ matrix.suffix }},enable=${{ github.ref == 'refs/heads/main' }}
+            type=sha,prefix=sha-,suffix=${{ matrix.suffix }},format=long
       - uses: docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8 # v6.19.2
         with:
           context: .
@@ -56,8 +67,10 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           # GET /health reports the exact source commit.
-          build-args: GIT_SHA=${{ github.sha }}
-          cache-from: type=gha,scope=thiqa-app-amd64
-          cache-to: type=gha,mode=max,scope=thiqa-app-amd64
+          build-args: |
+            GIT_SHA=${{ github.sha }}
+            RAKAZO_BASE_PATH=${{ matrix.base_path }}
+          cache-from: type=gha,scope=thiqa-app-amd64${{ matrix.suffix }}
+          cache-to: type=gha,mode=max,scope=thiqa-app-amd64${{ matrix.suffix }}
           provenance: false
           sbom: false

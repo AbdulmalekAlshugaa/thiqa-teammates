@@ -1,4 +1,5 @@
 import { t } from "@lingui/core/macro";
+import { withBasePath } from "./base-path";
 import { desktopBridge } from "./desktop";
 
 type SsoResult = {
@@ -44,7 +45,7 @@ export async function runSsoFlow(
   begin: (disableRedirect: boolean, callbackURL: (url: string) => string) => Promise<SsoResult>,
   callbackURLs: readonly string[],
 ): Promise<SsoResult> {
-  if (!desktopBridge()) return begin(false, (url) => url);
+  if (!desktopBridge()) return begin(false, withBasePath);
   const nonce = crypto.randomUUID();
   const callbacks = callbackURLs.map((url) => new URL(url, window.location.href));
   const callbackURL = (url: string) => {
