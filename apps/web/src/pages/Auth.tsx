@@ -3,7 +3,7 @@ import { credentialIssue, signupRequiresEmailVerification } from "@rakazo/core";
 import { Button, Input, Label } from "@rakazo/ui-web";
 import { Eye, EyeOff } from "lucide-react";
 import { useEffect, useState } from "react";
-import { Link, useNavigate, useSearchParams } from "react-router-dom";
+import { Link, Navigate, useNavigate, useSearchParams } from "react-router-dom";
 import { authClient } from "../lib/auth";
 import type { AuthCapabilities } from "../lib/auth-capabilities";
 import { fetchAuthCapabilities } from "../lib/auth-capabilities";
@@ -147,6 +147,9 @@ export function AuthPage({ mode }: { mode: AuthMode }) {
       setError(t`Could not continue`);
     }
   }
+
+  // Thiqa: a closed deployment has nothing to sign up for; send people to sign in instead.
+  if (mode === "up" && reset?.signups === false) return <Navigate to="/sign-in" replace />;
 
   return (
     <AuthFrame onSubmit={submit} title={title}>
@@ -293,7 +296,7 @@ export function AuthPage({ mode }: { mode: AuthMode }) {
                 </Button>
               ) : null}
               <p className="mt-8 text-muted-foreground">
-                {mode === "in" ? (
+                {mode === "in" && reset.signups === false ? null : mode === "in" ? (
                   <>
                     <Trans>Don’t have an account?</Trans>{" "}
                     <Link to="/sign-up" className="font-medium text-foreground">
