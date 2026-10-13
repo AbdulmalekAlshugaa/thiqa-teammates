@@ -4,6 +4,7 @@ import { act } from "react";
 import { createRoot } from "react-dom/client";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 import { afterEach, beforeEach, expect, it, vi } from "vitest";
+import { authClient } from "../lib/auth";
 import type { AuthCapabilities } from "../lib/auth-capabilities";
 import { fetchAuthCapabilities } from "../lib/auth-capabilities";
 import { AuthPage } from "./Auth";
@@ -113,4 +114,57 @@ it("offers only the OIDC button when password sign-in is off", async () => {
   expect(host.querySelectorAll("button")).toHaveLength(1);
   expect(host.textContent).toContain("Continue with Thiqa AI");
   expect(host.querySelector("input")).toBeNull();
+});
+
+const oidcOnly: AuthCapabilities = {
+  passwordAuth: false,
+  sso: { name: "Thiqa AI", availability: "available" },
+  passwordReset: false,
+  resetUrl: null,
+};
+async function signIn(path = "/sign-in") {
+  await act(async () =>
+    root.render(
+      <MemoryRouter initialEntries={[path]}>
+        <AuthPage mode="in" />
+      </MemoryRouter>,
+    ),
+  );
+}
+
+it("starts OIDC at once when it is the only way in", async () => {
+  vi.mocked(fetchAuthCapabilities).mockResolvedValue(oidcOnly);
+  await signIn();
+  expect(authClient.signIn.social).toHaveBeenCalledTimes(1);
+  expect(authClient.signIn.social).toHaveBeenCalledWith(
+    expect.objectContaining({
+      provider: "oidc",
+      callbackURL: "/app",
+      errorCallbackURL: "/sign-in",
+    }),
+  );
+});
+
+it("does not start OIDC again after the provider returned an error", async () => {
+  vi.mocked(fetchAuthCapabilities).mockResolvedValue(oidcOnly);
+  await signIn("/sign-in?error=access_denied");
+  expect(authClient.signIn.social).not.toHaveBeenCalled();
+});
+
+it.each(["checking", "unavailable"] as const)(
+  "waits for a click while OIDC is %s",
+  async (availability) => {
+    vi.mocked(fetchAuthCapabilities).mockResolvedValue({
+      ...oidcOnly,
+      sso: { name: "Thiqa AI", availability },
+    });
+    await signIn();
+    expect(authClient.signIn.social).not.toHaveBeenCalled();
+  },
+);
+
+it("waits for a click when passwords are also allowed", async () => {
+  vi.mocked(fetchAuthCapabilities).mockResolvedValue({ ...oidcOnly, passwordAuth: true });
+  await signIn();
+  expect(authClient.signIn.social).not.toHaveBeenCalled();
 });

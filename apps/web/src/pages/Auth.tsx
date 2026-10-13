@@ -2,11 +2,12 @@ import { Trans, useLingui } from "@lingui/react/macro";
 import { credentialIssue, signupRequiresEmailVerification } from "@rakazo/core";
 import { Button, Input, Label } from "@rakazo/ui-web";
 import { Eye, EyeOff } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link, Navigate, useNavigate, useSearchParams } from "react-router-dom";
 import { authClient } from "../lib/auth";
 import type { AuthCapabilities } from "../lib/auth-capabilities";
 import { fetchAuthCapabilities } from "../lib/auth-capabilities";
+import { desktopBridge } from "../lib/desktop";
 import { clearSpaceSelection } from "../lib/rpc";
 import { runSsoFlow } from "../lib/sso-flow";
 import { authErrorText, credentialIssueText } from "../lib/user-error";
@@ -66,6 +67,22 @@ export function AuthPage({ mode }: { mode: AuthMode }) {
       active = false;
     };
   }, [mode, capabilityAttempt]);
+
+  // Thiqa: with OIDC as the only way in, start it at once instead of waiting for a click. Once per
+  // visit, and never after the provider returned an error, so a failure cannot loop. Desktop keeps
+  // the button: its flow opens a popup, which needs a click.
+  const ssoAutoStarted = useRef(false);
+  const autoSso =
+    mode === "in" &&
+    reset?.passwordAuth === false &&
+    reset.sso?.availability === "available" &&
+    !searchParams.get("error") &&
+    !desktopBridge();
+  useEffect(() => {
+    if (!autoSso || ssoAutoStarted.current) return;
+    ssoAutoStarted.current = true;
+    void signInWithSso();
+  });
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
