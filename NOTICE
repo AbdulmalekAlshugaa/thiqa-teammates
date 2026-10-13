@@ -1,0 +1,8 @@
+Thiqa Teammates
+
+This product is a fork of Rakazo (https://github.com/elie222/rakazo),
+licensed under the Apache License, Version 2.0. See LICENSE.
+
+Changes in this fork rebrand the product as "Thiqa Teammates": the product
+name and the colour palette. They live in packages/ui-tokens/src/thiqa.ts and
+are applied through small hooks in upstream files. All other code is Rakazo's.

@@ -1,4 +1,5 @@
 import { i18n } from "@lingui/core";
+import { brandMessages } from "@rakazo/ui-tokens";
 import { applyUiDirection } from "./apply-ui-direction";
 import { persistUiLocale, resolveUiLocale, type UiLocale } from "./ui-locale";
 
@@ -42,7 +43,7 @@ async function loadCatalog(locale: UiLocale): Promise<CatalogMessages> {
 }
 
 function activateLoaded(locale: UiLocale, messages: CatalogMessages): UiLocale {
-  i18n.load(locale, messages);
+  i18n.load(locale, brandMessages(messages));
   i18n.activate(locale);
   activeLocale = locale;
   applyUiDirection(locale);

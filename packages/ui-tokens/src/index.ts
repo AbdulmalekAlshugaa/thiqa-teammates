@@ -1,3 +1,7 @@
+import { thiqaDarkTokens, thiqaLightTokens } from "./thiqa.js";
+
+export { brandMessages, PRODUCT_NAME } from "./thiqa.js";
+
 export const APPEARANCE_PREFERENCES = ["system", "light", "dark"] as const;
 
 export type AppearancePreference = (typeof APPEARANCE_PREFERENCES)[number];
@@ -49,7 +53,7 @@ export type ColorTokens = {
   scrollbarHover: string;
 };
 
-export const darkTokens = {
+const rakazoDarkTokens = {
   background: "#0B0C0E",
   foreground: "#ECECEE",
   card: "#141518",
@@ -86,7 +90,13 @@ export const darkTokens = {
   scrollbarHover: "#2E313A",
 } as const satisfies ColorTokens;
 
-export const lightTokens = {
+/** Upstream Rakazo palette with the Thiqa brand applied (see ./thiqa.ts). */
+export const darkTokens = {
+  ...rakazoDarkTokens,
+  ...thiqaDarkTokens,
+} as const satisfies ColorTokens;
+
+const rakazoLightTokens = {
   background: "#FAFAF8",
   foreground: "#1A1A1A",
   card: "#FFFFFF",
@@ -121,6 +131,12 @@ export const lightTokens = {
   overlay: "rgba(20, 20, 22, 0.45)",
   scrollbar: "#C8C8C4",
   scrollbarHover: "#A8A8A4",
+} as const satisfies ColorTokens;
+
+/** Upstream Rakazo palette with the Thiqa brand applied (see ./thiqa.ts). */
+export const lightTokens = {
+  ...rakazoLightTokens,
+  ...thiqaLightTokens,
 } as const satisfies ColorTokens;
 
 /** Dark palette. Prefer `tokensForAppearance` when theme-aware. */
