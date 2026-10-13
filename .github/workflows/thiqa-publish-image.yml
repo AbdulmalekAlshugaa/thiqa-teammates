@@ -1,0 +1,63 @@
+# Thiqa AI: publish the Thiqa Teammates app image from this fork's main.
+#
+# Upstream's publish-server-image.yml stays untouched so weekly merges stay clean. It derives the
+# image name from the repository, and this fork's owner name has capitals, which an image
+# reference cannot. So this workflow names the image explicitly, in lowercase, and builds only the
+# app image for linux/amd64, which is what the hosted deployment runs.
+name: thiqa-publish-image
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  IMAGE: ghcr.io/abdulmalekalshugaa/thiqa-teammates/app
+
+concurrency:
+  group: thiqa-publish-image-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Publish app image
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          persist-credentials: false
+      - uses: docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f # v3.12.0
+      - name: Log in to GHCR
+        uses: docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9 # v3.7.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - id: meta
+        uses: docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051 # v5.10.0
+        with:
+          images: ${{ env.IMAGE }}
+          tags: |
+            type=raw,value=main,enable=${{ github.ref == 'refs/heads/main' }}
+            type=sha,prefix=sha-,format=long
+      - uses: docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8 # v6.19.2
+        with:
+          context: .
+          file: infra/compose/Dockerfile
+          platforms: linux/amd64
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          # GET /health reports the exact source commit.
+          build-args: GIT_SHA=${{ github.sha }}
+          cache-from: type=gha,scope=thiqa-app-amd64
+          cache-to: type=gha,mode=max,scope=thiqa-app-amd64
+          provenance: false
+          sbom: false
