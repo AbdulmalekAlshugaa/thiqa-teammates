@@ -417,6 +417,9 @@ importers:
       '@rakazo/core':
         specifier: workspace:*
         version: link:../../packages/core
+      '@rakazo/ui-tokens':
+        specifier: workspace:*
+        version: link:../../packages/ui-tokens
       '@rakazo/ui-web':
         specifier: workspace:*
         version: link:../../packages/ui-web
