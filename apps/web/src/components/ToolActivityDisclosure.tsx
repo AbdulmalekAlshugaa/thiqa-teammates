@@ -90,7 +90,7 @@ export function ToolActivityDisclosure({
           aria-hidden
           size={14}
           strokeWidth={1.8}
-          className="transition-transform duration-150 group-open:rotate-90 motion-reduce:transition-none"
+          className="transition-transform duration-150 group-open:rotate-90 rtl:-scale-x-100 motion-reduce:transition-none"
         />
         {live ? (
           <Plural value={stepCount} one="Working… · # tool" other="Working… · # tools" />

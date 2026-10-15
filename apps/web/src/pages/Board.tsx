@@ -107,7 +107,7 @@ export function BoardPage() {
       <WindowChrome />
       <header className="flex items-center gap-3 border-b px-4 py-3">
         <Button variant="ghost" size="icon" render={<Link to="/app" />} aria-label={t`Back`}>
-          <ChevronLeft />
+          <ChevronLeft className="rtl:-scale-x-100" />
         </Button>
         <h1 className="flex-1 font-medium">
           <Trans>Board</Trans>

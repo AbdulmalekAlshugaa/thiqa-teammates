@@ -925,7 +925,7 @@ export function ModelSettingsOverlay({
                 type="button"
                 variant="ghost"
                 size="sm"
-                className="mt-2 -ml-2 text-muted-foreground"
+                className="mt-2 -ms-2 text-muted-foreground"
                 onClick={() => cancelOAuthAttempt()}
               >
                 <Trans>Cancel</Trans>
@@ -1411,7 +1411,7 @@ export function ModelSettingsOverlay({
                       type="button"
                       variant="ghost"
                       size="sm"
-                      className="-mr-2 shrink-0 text-muted-foreground"
+                      className="-me-2 shrink-0 text-muted-foreground"
                       disabled={busy}
                       onClick={() => setConfirmDisconnect(true)}
                     >
@@ -1713,7 +1713,7 @@ function ModelPicker({
         onKeyDown={onTriggerKeyDown}
       >
         <span className="min-w-0 truncate">{options[selectedIndex]?.label}</span>
-        <span className="ml-3 shrink-0 text-muted-foreground" aria-hidden="true">
+        <span className="ms-3 shrink-0 text-muted-foreground" aria-hidden="true">
           <ChevronDown size={16} strokeWidth={1.8} />
         </span>
       </button>
