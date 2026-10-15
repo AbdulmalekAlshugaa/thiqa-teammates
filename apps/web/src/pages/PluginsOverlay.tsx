@@ -538,7 +538,7 @@ export function PluginsOverlay({
               aria-label={t`Back`}
               onClick={closeDetail}
             >
-              <ChevronLeft />
+              <ChevronLeft className="rtl:-scale-x-100" />
             </Button>
             {item.logo ? (
               <img

@@ -320,7 +320,7 @@ export function RoutineEditor({
           className="text-muted-foreground"
           aria-label={t`Back`}
         >
-          <ChevronLeft />
+          <ChevronLeft className="rtl:-scale-x-100" />
         </Button>
         <div className="text-[15.5px] font-medium text-foreground">
           <Trans>Routine</Trans>
@@ -348,10 +348,10 @@ export function RoutineEditor({
             }`}
           >
             <span
-              className={`absolute top-[2px] left-0 h-[18px] w-[18px] rounded-full bg-background transition-transform ${
+              className={`absolute top-[2px] start-0 h-[18px] w-[18px] rounded-full bg-background transition-transform ${
                 draft.active
-                  ? "translate-x-[20px] dark:bg-primary-foreground"
-                  : "translate-x-[2px] dark:bg-foreground"
+                  ? "translate-x-[20px] rtl:-translate-x-[20px] dark:bg-primary-foreground"
+                  : "translate-x-[2px] rtl:-translate-x-[2px] dark:bg-foreground"
               }`}
             />
           </button>
@@ -400,7 +400,7 @@ export function RoutineEditor({
                 <Button
                   variant="ghost"
                   size="icon-sm"
-                  className="relative ml-auto text-muted-foreground"
+                  className="relative ms-auto text-muted-foreground"
                   aria-label={t`Advanced`}
                   title={t`Advanced`}
                 />
@@ -410,7 +410,7 @@ export function RoutineEditor({
               {draft.modelKey ? (
                 <span
                   aria-hidden
-                  className="absolute top-1 right-1 h-1.5 w-1.5 rounded-full bg-muted-foreground"
+                  className="absolute top-1 end-1 h-1.5 w-1.5 rounded-full bg-muted-foreground"
                 />
               ) : null}
             </PopoverTrigger>
@@ -489,7 +489,7 @@ export function RoutineEditor({
                     schedules: draft.schedules.filter((_, i) => i !== index),
                   })
                 }
-                className="absolute top-2 right-2 text-muted-foreground"
+                className="absolute top-2 end-2 text-muted-foreground"
               >
                 <X />
               </Button>

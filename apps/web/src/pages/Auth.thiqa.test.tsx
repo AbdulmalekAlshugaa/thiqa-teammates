@@ -111,7 +111,10 @@ it("offers only the OIDC button when password sign-in is off", async () => {
       </MemoryRouter>,
     ),
   );
-  expect(host.querySelectorAll("button")).toHaveLength(1);
+  // The only way in is OIDC; the language toggle is the page's one other control.
+  const buttons = [...host.querySelectorAll("button")];
+  expect(buttons.filter((b) => b.dataset.testid !== "language-toggle")).toHaveLength(1);
+  expect(host.querySelector('[data-testid="language-toggle"]')).not.toBeNull();
   expect(host.textContent).toContain("Continue with Thiqa AI");
   expect(host.querySelector("input")).toBeNull();
 });

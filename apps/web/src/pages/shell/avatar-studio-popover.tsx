@@ -124,7 +124,7 @@ export function AvatarStudioPopover({
         data-testid="avatar-studio-trigger"
       >
         <BotAvatar color={value} identity={identity} size={size} status={status} />
-        <div className="absolute -right-1 -bottom-1 flex size-6 items-center justify-center rounded-full border-2 border-background bg-secondary text-foreground shadow-md transition-transform group-hover:scale-110">
+        <div className="absolute -end-1 -bottom-1 flex size-6 items-center justify-center rounded-full border-2 border-background bg-secondary text-foreground shadow-md transition-transform group-hover:scale-110">
           <Pencil size={12} strokeWidth={2.2} />
         </div>
       </button>

@@ -184,7 +184,7 @@ export function FilesApp({
           disabled={!preview && !path}
           onClick={() => (preview ? setPreview(null) : void load(parentPath(path)))}
         >
-          <ArrowLeft />
+          <ArrowLeft className="rtl:-scale-x-100" />
         </Button>
         <span className="min-w-0 flex-1 truncate text-muted-foreground" dir="auto">
           ~/{location}
