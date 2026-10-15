@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+/*
+ * Thiqa colours, as Tailwind colours. The values are CSS variables set by ThiqaHome.astro from
+ * packages/ui-tokens (the Thiqa brand layer), so there is one palette for the app and this page.
+ */
+@theme inline {
+  --color-ground: var(--background);
+  --color-ink: var(--foreground);
+  --color-card: var(--card);
+  --color-primary: var(--primary);
+  --color-on-primary: var(--primary-foreground);
+  --color-soft: var(--secondary);
+  --color-muted: var(--muted-foreground);
+  --color-line: var(--border);
+  --color-clay: var(--link);
+  --color-ok: var(--success);
+  --font-thiqa: "IBM Plex Sans Arabic", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-thiqa);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.skip-link {
+  position: absolute;
+  inset-inline-start: 1rem;
+  top: -4rem;
+  z-index: 50;
+  border-radius: 0.5rem;
+  background: var(--primary);
+  color: var(--primary-foreground);
+  padding: 0.5rem 1rem;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-mark {
+  transform: rotate(45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .pulse {
+    animation: none;
+  }
+}
