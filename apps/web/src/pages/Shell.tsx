@@ -149,6 +149,7 @@ import { CallCard } from "../components/call/CallCard";
 import { VoiceChatCard } from "../components/call/VoiceChatCard";
 import { ComputerWorkspace } from "../components/computer/ComputerWorkspace";
 import { lazyOverlay } from "../components/ErrorBoundary";
+import { LanguageToggle } from "../components/LanguageToggle";
 import { MessageHoverMetadata } from "../components/MessageHoverMetadata";
 import {
   LIVE_TOOL_STEP_WINDOW,
@@ -3431,6 +3432,7 @@ export function ShellPage() {
             <Trans>Integrations</Trans>
           </span>
         </button>
+        <LanguageToggle className="mx-3 mb-1 h-auto justify-start gap-3 rounded-xl px-2.5 py-2 text-[14px] font-medium text-foreground/90" />
         <Popover open={menuOpen} onOpenChange={setMenuOpen}>
           <PopoverTrigger
             data-testid="user-menu-trigger"

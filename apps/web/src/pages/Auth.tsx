@@ -4,6 +4,7 @@ import { Button, Input, Label } from "@rakazo/ui-web";
 import { Eye, EyeOff } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { Link, Navigate, useNavigate, useSearchParams } from "react-router-dom";
+import { LanguageToggle } from "../components/LanguageToggle";
 import { authClient } from "../lib/auth";
 import type { AuthCapabilities } from "../lib/auth-capabilities";
 import { fetchAuthCapabilities } from "../lib/auth-capabilities";
@@ -261,7 +262,7 @@ export function AuthPage({ mode }: { mode: AuthMode }) {
                       type={showPassword ? "text" : "password"}
                       required
                       minLength={8}
-                      className={`${fieldClass} pr-12`}
+                      className={`${fieldClass} pe-12`}
                     />
                     <Button
                       type="button"
@@ -270,13 +271,13 @@ export function AuthPage({ mode }: { mode: AuthMode }) {
                       onClick={() => setShowPassword((shown) => !shown)}
                       aria-label={showPassword ? t`Hide password` : t`Show password`}
                       aria-pressed={showPassword}
-                      className="absolute inset-y-0 right-2 my-auto text-muted-foreground"
+                      className="absolute inset-y-0 end-2 my-auto text-muted-foreground"
                     >
                       {showPassword ? <EyeOff /> : <Eye />}
                     </Button>
                   </div>
                   {mode === "in" && reset?.passwordReset ? (
-                    <div className="mt-2 text-right text-sm">
+                    <div className="mt-2 text-end text-sm">
                       <Link to="/forgot-password" className="font-medium text-foreground">
                         <Trans>Forgot password?</Trans>
                       </Link>
@@ -434,7 +435,7 @@ export function AuthFrame({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex min-h-full items-center justify-center bg-background px-6 py-16 text-foreground">
+    <div className="relative flex min-h-full items-center justify-center bg-background px-6 py-16 text-foreground">
       <form onSubmit={onSubmit} className="flex w-[460px] flex-col items-center">
         <div className="flex h-[74px] w-[74px] items-center justify-center gap-[11px] rounded-full bg-muted">
           <span className="h-5 w-[9px] rounded-full bg-primary" />
@@ -445,6 +446,7 @@ export function AuthFrame({
         </h1>
         {children}
       </form>
+      <LanguageToggle className="absolute end-4 top-4" />
     </div>
   );
 }
