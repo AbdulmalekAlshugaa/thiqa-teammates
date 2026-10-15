@@ -9,6 +9,9 @@ RUN pnpm --filter @rakazo/db generate
 # Thiqa: serve under a path (e.g. /teammates); baked into assets, and kept for the servers.
 ARG RAKAZO_BASE_PATH=""
 ENV RAKAZO_BASE_PATH=$RAKAZO_BASE_PATH
+# Thiqa: Arabic-first. A visitor with no saved choice starts in Arabic; English stays selectable.
+ARG VITE_DEFAULT_UI_LOCALE="ar"
+ENV VITE_DEFAULT_UI_LOCALE=$VITE_DEFAULT_UI_LOCALE
 RUN RAKAZO_ALLOW_DEV_SECRETS=1 pnpm --filter @rakazo/web build
 RUN install -d -m 750 -o node -g node /data /app/apps/web/node_modules/.vite-temp
 ARG GIT_SHA
