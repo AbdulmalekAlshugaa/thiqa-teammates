@@ -1,0 +1,4836 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-10-15 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ar\n"
+
+#: src/pages/Shell.tsx
+msgid " (unread)"
+msgstr " (غير مقروءة)"
+
+#. placeholder {0}: group.entries.length
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "{0, plural, one {# model} other {# models}}"
+msgstr "{0, plural, zero {لا توجد نماذج} one {نموذج واحد} two {نموذجان} few {# نماذج} many {# نموذجًا} other {# نموذج}}"
+
+#. placeholder {0}: Math.ceil(oauth.expiresInSeconds / 60)
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "{0, plural, one {Waiting for sign-in — the code expires in about # minute.} other {Waiting for sign-in — the code expires in about # minutes.}}"
+msgstr "{0, plural, zero {بانتظار تسجيل الدخول — تنتهي صلاحية الرمز خلال أقل من دقيقة.} one {بانتظار تسجيل الدخول — تنتهي صلاحية الرمز خلال دقيقة واحدة تقريبًا.} two {بانتظار تسجيل الدخول — تنتهي صلاحية الرمز خلال دقيقتين تقريبًا.} few {بانتظار تسجيل الدخول — تنتهي صلاحية الرمز خلال # دقائق تقريبًا.} many {بانتظار تسجيل الدخول — تنتهي صلاحية الرمز خلال # دقيقة تقريبًا.} other {بانتظار تسجيل الدخول — تنتهي صلاحية الرمز خلال # دقيقة تقريبًا.}}"
+
+#. placeholder {0}: Math.ceil(oauth.expiresInSeconds / 60)
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "{0, plural, one {Waiting for sign-in — the link expires in about # minute.} other {Waiting for sign-in — the link expires in about # minutes.}}"
+msgstr "{0, plural, zero {بانتظار تسجيل الدخول — تنتهي صلاحية الرابط خلال أقل من دقيقة.} one {بانتظار تسجيل الدخول — تنتهي صلاحية الرابط خلال دقيقة واحدة تقريبًا.} two {بانتظار تسجيل الدخول — تنتهي صلاحية الرابط خلال دقيقتين تقريبًا.} few {بانتظار تسجيل الدخول — تنتهي صلاحية الرابط خلال # دقائق تقريبًا.} many {بانتظار تسجيل الدخول — تنتهي صلاحية الرابط خلال # دقيقة تقريبًا.} other {بانتظار تسجيل الدخول — تنتهي صلاحية الرابط خلال # دقيقة تقريبًا.}}"
+
+#. placeholder {0}: file.name
+#: src/pages/Shell.tsx
+msgid "{0} (max {ATTACHMENT_MAX_COUNT} attachments)"
+msgstr "{0} (الحد الأقصى {ATTACHMENT_MAX_COUNT} مرفقات)"
+
+#. placeholder {0}: file.name
+#: src/pages/Shell.tsx
+msgid "{0} (over 10 MiB)"
+msgstr "{0} (أكبر من 10 MiB)"
+
+#. placeholder {0}: preset.n
+#: src/pages/RoutineSchedule.tsx
+msgid "{0} {unitLabel}"
+msgstr "{0} {unitLabel}"
+
+#. placeholder {0}: block.name
+#: src/pages/shell/message-cards.tsx
+msgid "{0} connection"
+msgstr "اتصال {0}"
+
+#. placeholder {0}: bot.name
+#: src/pages/ExternalConversationSettings.tsx
+msgid "{0} default"
+msgstr "الإعداد الافتراضي لـ {0}"
+
+#. placeholder {0}: sender.name
+#: src/pages/ExternalConversationSettings.tsx
+msgid "{0} handling"
+msgstr "التعامل مع {0}"
+
+#. placeholder {0}: format(size / 1024)
+#: src/components/ArtifactFileCard.tsx
+msgid "{0} KB"
+msgstr "{0} كيلوبايت"
+
+#. placeholder {0}: format(size / (1024 * 1024))
+#: src/components/ArtifactFileCard.tsx
+msgid "{0} MB"
+msgstr "{0} ميغابايت"
+
+#. placeholder {0}: sender.name
+#: src/pages/ExternalConversationSettings.tsx
+msgid "{0} rollup hours"
+msgstr "ساعات الملخص المجمّع لـ {0}"
+
+#. placeholder {0}: usage.runs
+#. placeholder {1}: usage.totalTokens ?? "—"
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "{0} runs · {1} tokens"
+msgstr "{0} عمليات تشغيل · {1} رمز"
+
+#. placeholder {0}: bot.name
+#: src/pages/ExternalConversationSettings.tsx
+msgid "{0} will still respond to direct mentions."
+msgstr "سيستمر الرد من {0} على الإشارات المباشرة."
+
+#. placeholder {0}: active.name
+#: src/pages/Shell.tsx
+msgid "{0}'s screen"
+msgstr "شاشة {0}"
+
+#: src/lib/billing.ts
+msgid "{amount} / {period}"
+msgstr "{amount} / {period}"
+
+#: src/pages/Shell.tsx
+msgid "{botName}’s computer"
+msgstr "حاسوب {botName}"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "{commandVariable} is reserved and cannot be used as a command variable. Choose another name."
+msgstr "{commandVariable} محجوز ولا يمكن استخدامه متغيرًا للأمر. اختر اسمًا آخر."
+
+#: src/lib/billing.ts
+msgid "{count} days"
+msgstr "{count} يوم"
+
+#: src/lib/billing.ts
+msgid "{count} months"
+msgstr "{count} شهر"
+
+#: src/lib/billing.ts
+msgid "{count} weeks"
+msgstr "{count} أسبوع"
+
+#: src/lib/billing.ts
+msgid "{count} years"
+msgstr "{count} سنة"
+
+#: src/lib/relative-time.ts
+#: src/pages/ActivityList.tsx
+msgid "{days}d ago"
+msgstr "منذ {days} يوم"
+
+#: src/components/ToolActivityDisclosure.tsx
+msgid "{hidden, plural, one {+# earlier step} other {+# earlier steps}}"
+msgstr "{hidden, plural, zero {لا توجد خطوات سابقة} one {+خطوة سابقة واحدة} two {+خطوتان سابقتان} few {+# خطوات سابقة} many {+# خطوة سابقة} other {+# خطوة سابقة}}"
+
+#: src/lib/relative-time.ts
+#: src/pages/ActivityList.tsx
+msgid "{hours}h ago"
+msgstr "منذ {hours} ساعة"
+
+#: src/lib/relative-time.ts
+#: src/pages/ActivityList.tsx
+msgid "{minutes}m ago"
+msgstr "منذ {minutes} دقيقة"
+
+#. js-lingui-explicit-id
+#: src/lib/browser-notifications.ts
+msgid "{name} failed"
+msgstr "فشل عمل {name}"
+
+#. js-lingui-explicit-id
+#: src/lib/browser-notifications.ts
+msgid "{name} finished"
+msgstr "اكتمل عمل {name}"
+
+#. js-lingui-explicit-id
+#: src/lib/browser-notifications.ts
+msgid "{name} stopped"
+msgstr "توقف عمل {name}"
+
+#: src/components/teach/TeachRecordingChrome.tsx
+msgid "{remaining} left · bot is watching, not acting"
+msgstr "المتبقي {remaining} · البوت يراقب ولا ينفّذ"
+
+#: src/pages/BillingSettingsPanel.tsx
+msgid "{seats, plural, one {# seat} other {# seats}}"
+msgstr "{seats, plural, zero {لا توجد مقاعد} one {مقعد واحد} two {مقعدان} few {# مقاعد} many {# مقعدًا} other {# مقعد}}"
+
+#: src/components/ArtifactFileCard.tsx
+msgid "{size} B"
+msgstr "{size} بايت"
+
+#: src/components/ToolActivityDisclosure.tsx
+msgid "{stepCount, plural, one {Done · # tool} other {Done · # tools}}"
+msgstr "{stepCount, plural, zero {تم · بدون أدوات} one {تم · أداة واحدة} two {تم · أداتان} few {تم · # أدوات} many {تم · # أداة} other {تم · # أداة}}"
+
+#: src/components/ToolActivityDisclosure.tsx
+msgid "{stepCount, plural, one {Working… · # tool} other {Working… · # tools}}"
+msgstr "{stepCount, plural, zero {جارٍ العمل… · بدون أدوات} one {جارٍ العمل… · أداة واحدة} two {جارٍ العمل… · أداتان} few {جارٍ العمل… · # أدوات} many {جارٍ العمل… · # أداة} other {جارٍ العمل… · # أداة}}"
+
+#: src/pages/ActivityList.tsx
+msgid "{title}, {label}"
+msgstr "{title}، {label}"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "{toolCount, plural, one {# tool} other {# tools}}"
+msgstr "{toolCount, plural, zero {لا توجد أدوات} one {أداة واحدة} two {أداتان} few {# أدوات} many {# أداة} other {# أداة}}"
+
+#: src/pages/Shell.tsx
+msgid "{workingBotName} is working"
+msgstr "{workingBotName} قيد العمل"
+
+#. placeholder {0}: mention.name
+#: src/pages/Shell.tsx
+msgid "@{0}"
+msgstr "@{0}"
+
+#: src/pages/shell/message-cards.tsx
+msgid "A bit of everything"
+msgstr "قليل من كل شيء"
+
+#. placeholder {0}: oauth.verificationUri.replace(/^https:\/\//, "")
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "A sign-in tab opened at <0>{0}</0>. Enter this code there — this window keeps waiting:"
+msgstr "فُتح تبويب لتسجيل الدخول على <0>{0}</0>. أدخل هذا الرمز هناك — ستبقى هذه النافذة في الانتظار:"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "A subscription credential is stored securely."
+msgstr "بيانات اعتماد الاشتراك محفوظة بأمان."
+
+#: src/pages/shell/bot-picker.tsx
+msgid "About groups"
+msgstr "حول المجموعات"
+
+#: src/pages/shell/bot-picker.tsx
+msgid "About spaces"
+msgstr "حول المساحات"
+
+#: src/components/integrations/IntegrationSetup.tsx
+msgid "Access token"
+msgstr "رمز الوصول"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Access token (optional)"
+msgstr "رمز الوصول (اختياري)"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Account"
+msgstr "الحساب"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Account default"
+msgstr "الإعداد الافتراضي للحساب"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Account ID"
+msgstr "معرّف الحساب"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Account label"
+msgstr "تسمية الحساب"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Accounts"
+msgstr "الحسابات"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Action confirmations"
+msgstr "تأكيدات الإجراءات"
+
+#. placeholder {0}: bot.name
+#. placeholder {0}: group.spaceName
+#. placeholder {0}: sectionMenu.section.name
+#: src/pages/BotContextMenu.tsx
+#: src/pages/Shell.tsx
+msgid "Actions for {0}"
+msgstr "إجراءات {0}"
+
+#: src/pages/Shell.tsx
+msgid "Actions for space"
+msgstr "إجراءات المساحة"
+
+#: src/pages/BillingSettingsPanel.tsx
+#: src/pages/RoutineEditor.tsx
+msgid "Active"
+msgstr "نشط"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Active model"
+msgstr "النموذج النشط"
+
+#: src/components/computer/TerminalApp.tsx
+#: src/pages/Shell.tsx
+msgid "Activity"
+msgstr "النشاط"
+
+#: src/pages/ModelBackupsSettings.tsx
+#: src/pages/PluginsOverlay.tsx
+#: src/pages/ScratchpadSection.tsx
+msgid "Add"
+msgstr "إضافة"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Add a model in Settings to use this."
+msgstr "أضف نموذجًا من الإعدادات لاستخدام هذه الميزة."
+
+#: src/pages/Shell.tsx
+msgid "Add a run time for this one-shot."
+msgstr "أضف وقت تشغيل لهذه المهمة لمرة واحدة."
+
+#: src/pages/Shell.tsx
+msgid "Add a schedule, webhook, GitHub, or message trigger"
+msgstr "أضف مُشغِّلًا: جدولة أو Webhook أو GitHub أو رسالة"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Add a schedule, webhook, GitHub, or message trigger to run this routine."
+msgstr "أضف مُشغِّلًا (جدولة أو Webhook أو GitHub أو رسالة) لتشغيل هذه المهمة المجدولة."
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Add a server name."
+msgstr "أضف اسم الخادم."
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Add a stdio command."
+msgstr "أضف أمر stdio."
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Add an HTTPS server URL."
+msgstr "أضف عنوان URL لخادم HTTPS."
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Add another"
+msgstr "إضافة آخر"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Add connected model"
+msgstr "إضافة نموذج متصل"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Add connected models to use them as backups."
+msgstr "أضف نماذج متصلة لاستخدامها كنماذج احتياطية."
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Add credential"
+msgstr "إضافة بيانات اعتماد"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Add Executor"
+msgstr "إضافة Executor"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Add GraphQL"
+msgstr "إضافة GraphQL"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Add GraphQL endpoint"
+msgstr "إضافة نقطة نهاية GraphQL"
+
+#: src/pages/ScratchpadSection.tsx
+msgid "Add item"
+msgstr "إضافة عنصر"
+
+#: src/components/integrations/IntegrationSetup.tsx
+#: src/pages/PluginsOverlay.tsx
+msgid "Add MCP server"
+msgstr "إضافة خادم MCP"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Add OpenAPI"
+msgstr "إضافة OpenAPI"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Add remote MCP server"
+msgstr "إضافة خادم MCP بعيد"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Add server"
+msgstr "إضافة خادم"
+
+#: src/components/integrations/IntegrationSetup.tsx
+msgid "Add server URL"
+msgstr "إضافة عنوان URL للخادم"
+
+#: src/components/teach/SkillDraftCard.tsx
+msgid "Add to routine"
+msgstr "إضافة إلى المهمة المجدولة"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Add Treg"
+msgstr "إضافة Treg"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Add trigger"
+msgstr "إضافة مُشغِّل"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Added"
+msgstr "تمت الإضافة"
+
+#: src/pages/McpServersOverlay.tsx
+#: src/pages/PluginsOverlay.tsx
+msgid "Adding…"
+msgstr "جارٍ الإضافة…"
+
+#: src/pages/AccountSettingsOverlay.tsx
+#: src/pages/McpServersOverlay.tsx
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+#: src/pages/PluginsOverlay.tsx
+#: src/pages/RoutineEditor.tsx
+#: src/pages/RoutineSchedule.tsx
+#: src/pages/shell/bot-panel.tsx
+msgid "Advanced"
+msgstr "متقدم"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Advanced..."
+msgstr "متقدم..."
+
+#: src/pages/Shell.tsx
+msgid "Agent computer"
+msgstr "حاسوب الوكيل"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Agent connections"
+msgstr "اتصالات الوكيل"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Agents:"
+msgstr "الوكلاء:"
+
+#: src/pages/Artifacts.tsx
+msgid "All bots"
+msgstr "كل البوتات"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "All providers"
+msgstr "كل المزوّدين"
+
+#: src/pages/ActivityList.tsx
+msgid "All statuses"
+msgstr "كل الحالات"
+
+#: src/pages/Artifacts.tsx
+msgid "All time"
+msgstr "كل الأوقات"
+
+#. placeholder {0}: rule.matchValue
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Allow {0} actions without asking"
+msgstr "السماح بإجراءات {0} دون سؤال"
+
+#. placeholder {0}: rule.matchValue
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Allow {0} connector without asking"
+msgstr "السماح بموصل {0} دون سؤال"
+
+#. placeholder {0}: rule.matchValue
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Allow {0} without asking"
+msgstr "السماح بـ {0} دون سؤال"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Allow email actions without asking"
+msgstr "السماح بإجراءات البريد الإلكتروني دون سؤال"
+
+#: src/components/AskCard.tsx
+msgid "Allow once"
+msgstr "السماح مرة واحدة"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Allow purchase actions without asking"
+msgstr "السماح بإجراءات الشراء دون سؤال"
+
+#: src/pages/memory-providers/SerenitySettingsForm.tsx
+msgid "Allow writing"
+msgstr "السماح بالكتابة"
+
+#: src/components/AskCard.tsx
+msgid "Allowed once"
+msgstr "تم السماح مرة واحدة"
+
+#: src/pages/Auth.tsx
+msgid "Already have an account?"
+msgstr "لديك حساب بالفعل؟"
+
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Always act"
+msgstr "التصرف دائمًا"
+
+#: src/components/AskCard.tsx
+msgid "Always allow this tool"
+msgstr "السماح بهذه الأداة دائمًا"
+
+#: src/components/AskCard.tsx
+msgid "Always allowed"
+msgstr "مسموح دائمًا"
+
+#: src/lib/model-connection-preflight.ts
+msgid "An API key is stored for this provider, not a subscription sign-in."
+msgstr "تم حفظ مفتاح API لهذا المزوّد، وليس تسجيل دخول باشتراك."
+
+#: src/components/AskCard.tsx
+msgid "Answer"
+msgstr "إجابة"
+
+#: src/components/AskCard.tsx
+msgid "Answered"
+msgstr "تمت الإجابة"
+
+#. placeholder {0}: selectedAskActionLabel(answer, actions)
+#: src/components/AskCard.tsx
+msgid "Answered: {0}"
+msgstr "الإجابة: {0}"
+
+#: src/components/AskCard.tsx
+msgid "Answered: {answer}"
+msgstr "الإجابة: {answer}"
+
+#: src/pages/Paywall.tsx
+msgid "Any model, with your own key"
+msgstr "أي نموذج، بمفتاحك الخاص"
+
+#: src/components/SoftwareUpdateSection.tsx
+msgid "API is back, but the update did not finish. Check the host logs."
+msgstr "عادت واجهة API للعمل، لكن التحديث لم يكتمل. راجع سجلات الخادم."
+
+#: src/components/AskCard.tsx
+#: src/components/integrations/IntegrationSetup.tsx
+#: src/lib/localized-provider-hint.ts
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "API key"
+msgstr "مفتاح API"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "API key header"
+msgstr "ترويسة مفتاح API"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Appearance"
+msgstr "المظهر"
+
+#: src/components/teach/SkillDraftCard.tsx
+msgid "Approval boundaries"
+msgstr "حدود الموافقة"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+#: src/pages/shell/message-cards.tsx
+msgid "Approve"
+msgstr "موافقة"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Approve this server to let your agent use its tools."
+msgstr "وافق على هذا الخادم ليتمكن الوكيل من استخدام أدواته."
+
+#: src/pages/BotContextMenu.tsx
+msgid "Archive"
+msgstr "أرشفة"
+
+#: src/pages/Shell.tsx
+msgid "archived"
+msgstr "مؤرشفة"
+
+#: src/pages/Shell.tsx
+msgid "Archived"
+msgstr "مؤرشف"
+
+#: src/pages/Shell.tsx
+msgid "Archived. Chat, memory, and files kept."
+msgstr "تمت الأرشفة. تم الاحتفاظ بالمحادثة والذاكرة والملفات."
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Arguments"
+msgstr "الوسائط"
+
+#: src/pages/Artifacts.tsx
+#: src/pages/Shell.tsx
+msgid "Artifacts"
+msgstr "الملفات الناتجة"
+
+#. placeholder {0}: rule.matchValue
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Ask before {0}"
+msgstr "السؤال قبل {0}"
+
+#. placeholder {0}: rule.matchValue
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Ask before {0} actions"
+msgstr "السؤال قبل إجراءات {0}"
+
+#. placeholder {0}: rule.matchValue
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Ask before {0} connector"
+msgstr "السؤال قبل استخدام موصل {0}"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Ask before email actions"
+msgstr "السؤال قبل إجراءات البريد الإلكتروني"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Ask before purchase actions"
+msgstr "السؤال قبل إجراءات الشراء"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Ask before purchases"
+msgstr "السؤال قبل عمليات الشراء"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Ask before sending external email"
+msgstr "السؤال قبل إرسال بريد إلكتروني خارجي"
+
+#: src/components/integrations/IntegrationSetup.tsx
+msgid "Ask the server owner to configure this provider."
+msgstr "اطلب من مالك الخادم إعداد هذا المزوّد."
+
+#. placeholder {0}: preset.time
+#: src/pages/RoutineSchedule.tsx
+msgid "at {0}"
+msgstr "في {0}"
+
+#: src/pages/RoutineSchedule.tsx
+msgid "at {timeSelect}"
+msgstr "في {timeSelect}"
+
+#: src/pages/Shell.tsx
+msgid "Attach file"
+msgstr "إرفاق ملف"
+
+#: src/components/computer/TerminalApp.tsx
+msgid "Attached {path}"
+msgstr "تم إرفاق {path}"
+
+#: src/pages/Shell.tsx
+#: src/pages/shell/chat-context.tsx
+msgid "Attachment"
+msgstr "مرفق"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Authentication failed."
+msgstr "فشلت المصادقة."
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Authorization code or callback URL"
+msgstr "رمز التفويض أو عنوان URL لإعادة التوجيه"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Authorization timed out. Please try again."
+msgstr "انتهت مهلة التفويض. يُرجى المحاولة مرة أخرى."
+
+#: src/pages/shell/message-cards.tsx
+msgid "Authorize"
+msgstr "تفويض"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Authorize this server so agents can use its tools. A popup opens."
+msgstr "فوّض هذا الخادم ليتمكّن الوكلاء من استخدام أدواته. ستُفتح نافذة منبثقة."
+
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Automated senders"
+msgstr "المرسِلون الآليون"
+
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Automated senders will appear after they post here."
+msgstr "سيظهر المرسِلون الآليون بعد أن ينشروا هنا."
+
+#: src/pages/RoutineEditor.tsx
+msgid "Available after the routine is saved"
+msgstr "متاح بعد حفظ المهمة المجدولة"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Available to this bot's shell commands as {commandVariable}"
+msgstr "متاح لأوامر الطرفية الخاصة بهذا البوت باسم {commandVariable}"
+
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Avatar Studio"
+msgstr "استوديو الصور الرمزية"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Avatars"
+msgstr "الصور الرمزية"
+
+#: src/components/computer/FilesApp.tsx
+#: src/pages/Board.tsx
+#: src/pages/PluginsOverlay.tsx
+#: src/pages/RoutineEditor.tsx
+msgid "Back"
+msgstr "رجوع"
+
+#: src/pages/Auth.tsx
+msgid "Back to sign in"
+msgstr "العودة إلى تسجيل الدخول"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Backup models"
+msgstr "النماذج الاحتياطية"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Backup models order"
+msgstr "ترتيب النماذج الاحتياطية"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Backup models saved."
+msgstr "تم حفظ النماذج الاحتياطية."
+
+#: src/pages/memory-providers/SupermemorySettingsForm.tsx
+msgid "Base URL"
+msgstr "عنوان URL الأساسي"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Basic auth"
+msgstr "مصادقة أساسية"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Basic auth ({username})"
+msgstr "مصادقة أساسية ({username})"
+
+#: src/pages/memory-providers/SerenitySettingsForm.tsx
+#: src/pages/PluginsOverlay.tsx
+#: src/pages/shell/bot-credentials.tsx
+msgid "Bearer token"
+msgstr "رمز Bearer"
+
+#: src/pages/SettingsOverlay.tsx
+msgid "Billing"
+msgstr "الفوترة"
+
+#: src/lib/ticket-status.ts
+msgid "Blocked"
+msgstr "متوقفة"
+
+#: src/pages/Board.tsx
+#: src/pages/Shell.tsx
+msgid "Board"
+msgstr "اللوحة"
+
+#: src/pages/Shell.tsx
+msgid "Booting live desktop…"
+msgstr "جارٍ تشغيل سطح المكتب المباشر…"
+
+#. placeholder {0}: computerBot?.name ?? active?.name
+#: src/pages/Shell.tsx
+msgid "Booting up {0}’s computer"
+msgstr "جارٍ تشغيل حاسوب {0}"
+
+#: src/pages/Shell.tsx
+msgid "bot"
+msgstr "بوت"
+
+#: src/pages/IntegrationSetup.tsx
+#: src/pages/Shell.tsx
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Bot"
+msgstr "البوت"
+
+#. js-lingui-explicit-id
+#: src/lib/browser-notifications.ts
+msgid "Bot"
+msgstr "البوت"
+
+#: src/pages/Shell.tsx
+msgid "Bot screen"
+msgstr "شاشة البوت"
+
+#: src/pages/Shell.tsx
+msgid "Bot screen preview"
+msgstr "معاينة شاشة البوت"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Bot to link"
+msgstr "البوت المراد ربطه"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Bot's model"
+msgstr "نموذج البوت"
+
+#: src/pages/Artifacts.tsx
+msgid "Bots"
+msgstr "البوتات"
+
+#: src/pages/Shell.tsx
+msgid "Bots are working"
+msgstr "البوتات تعمل"
+
+#: src/pages/Paywall.tsx
+msgid "Bots with their own computer and browser"
+msgstr "بوتات لكلٍّ منها حاسوبه ومتصفحه"
+
+#: src/pages/memory-providers/SerenitySettingsForm.tsx
+msgid "Brain label"
+msgstr "تسمية الدماغ"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Browse MCP servers"
+msgstr "تصفّح خوادم MCP"
+
+#: src/components/computer/ComputerWorkspace.tsx
+msgid "Browser"
+msgstr "المتصفح"
+
+#: src/pages/KnowledgeSection.tsx
+msgid "Built-in"
+msgstr "مدمج"
+
+#: src/App.tsx
+msgid "Can't reach the server."
+msgstr "تعذّر الوصول إلى الخادم."
+
+#: src/components/AskCard.tsx
+#: src/components/ComputerMaintenanceActions.tsx
+#: src/components/ComputerUpdateProgress.tsx
+#: src/components/markdown-link-prompt.tsx
+#: src/components/teach/TeachComputerOverlay.tsx
+#: src/pages/Artifacts.tsx
+#: src/pages/KnowledgeSection.tsx
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+#: src/pages/PluginsOverlay.tsx
+#: src/pages/shell/bot-credentials.tsx
+#: src/pages/shell/dialogs.tsx
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Cancel new bot"
+msgstr "إلغاء البوت الجديد"
+
+#: src/pages/GroupPanel.tsx
+msgid "Cancel new group"
+msgstr "إلغاء المجموعة الجديدة"
+
+#: src/pages/shell/chat-context.tsx
+msgid "Cancel reply"
+msgstr "إلغاء الرد"
+
+#: src/pages/BillingSettingsPanel.tsx
+msgid "Canceled"
+msgstr "ملغى"
+
+#: src/components/CloudAgentCard.tsx
+msgid "cancelled"
+msgstr "ملغاة"
+
+#: src/components/AskCard.tsx
+#: src/pages/ActivityList.tsx
+msgid "Cancelled"
+msgstr "ملغاة"
+
+#: src/pages/Artifacts.tsx
+msgid "Card view"
+msgstr "عرض البطاقات"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Change password"
+msgstr "تغيير كلمة المرور"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Changing…"
+msgstr "جارٍ التغيير…"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Channels"
+msgstr "القنوات"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Chart failed to render: {error}"
+msgstr "تعذّر عرض المخطط: {error}"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Chat apps"
+msgstr "تطبيقات الدردشة"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Chat apps, group channels, and agent connections."
+msgstr "تطبيقات الدردشة وقنوات المجموعات واتصالات الوكلاء."
+
+#: src/pages/Shell.tsx
+msgid "Chat Settings"
+msgstr "إعدادات المحادثة"
+
+#: src/components/ComputersUnavailableHint.tsx
+#: src/pages/HostComputerPrompt.tsx
+msgid "Check again"
+msgstr "التحقق مجددًا"
+
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Check failed"
+msgstr "فشل التحقق"
+
+#: src/components/DesktopUpdates.tsx
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Check for updates"
+msgstr "التحقق من التحديثات"
+
+#: src/pages/Shell.tsx
+msgid "Check in."
+msgstr "تفقّد الحال."
+
+#: src/lib/model-connection-preflight.ts
+msgid "Check the API key or sign-in, then test again."
+msgstr "تحقّق من مفتاح API أو تسجيل الدخول، ثم أعد الاختبار."
+
+#: src/lib/model-connection-preflight.ts
+msgid "Check the server URL and network, then test again."
+msgstr "تحقّق من عنوان URL للخادم ومن الشبكة، ثم أعد الاختبار."
+
+#: src/pages/Auth.tsx
+msgid "Check your email"
+msgstr "تحقّق من بريدك الإلكتروني"
+
+#: src/components/ComputersUnavailableHint.tsx
+msgid "Checking computer setup…"
+msgstr "جارٍ التحقق من إعداد الحاسوب…"
+
+#: src/components/ComputersUnavailableHint.tsx
+#: src/components/DesktopUpdates.tsx
+#: src/components/SoftwareUpdateSection.tsx
+#: src/pages/HostComputerPrompt.tsx
+msgid "Checking…"
+msgstr "جارٍ التحقق…"
+
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Checkout has local changes. Clean it before updating."
+msgstr "تحتوي النسخة المحلية على تغييرات غير محفوظة. نظّفها قبل التحديث."
+
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Choose a bot shape, color, or upload an image"
+msgstr "اختر شكل البوت أو لونه، أو ارفع صورة"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Choose a bot…"
+msgstr "اختر بوتًا…"
+
+#: src/pages/Auth.tsx
+msgid "Choose a new password"
+msgstr "اختر كلمة مرور جديدة"
+
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Choose file"
+msgstr "اختيار ملف"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Choose which connected model Rakazo uses."
+msgstr "اختر النموذج المتصل الذي يستخدمه Rakazo."
+
+#: src/pages/shell/dialogs.tsx
+msgid "Clear"
+msgstr "مسح"
+
+#. placeholder {0}: bot.name
+#: src/pages/shell/dialogs.tsx
+msgid "Clear {0}’s conversation?"
+msgstr "مسح محادثة {0}؟"
+
+#: src/pages/BotContextMenu.tsx
+#: src/pages/shell/bot-panel.tsx
+msgid "Clear conversation"
+msgstr "مسح المحادثة"
+
+#: src/pages/ActivityList.tsx
+msgid "Clear filter {label}"
+msgstr "مسح عامل التصفية {label}"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Clearing…"
+msgstr "جارٍ المسح…"
+
+#: src/components/integrations/IntegrationSetup.tsx
+msgid "Client ID"
+msgstr "معرّف العميل"
+
+#: src/components/integrations/IntegrationSetup.tsx
+msgid "Client secret"
+msgstr "سرّ العميل"
+
+#: src/components/ErrorBoundary.tsx
+#: src/pages/KnowledgeSection.tsx
+#: src/pages/MessagingSettingsOverlay.tsx
+#: src/pages/PeerMessagesOverlay.tsx
+#: src/pages/RoutineEditor.tsx
+#: src/pages/shell/avatar-studio-popover.tsx
+#: src/pages/WindowChrome.tsx
+msgid "Close"
+msgstr "إغلاق"
+
+#: src/components/computer/ComputerWorkspace.tsx
+msgid "Close {title}"
+msgstr "إغلاق {title}"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Close chart"
+msgstr "إغلاق المخطط"
+
+#: src/pages/Shell.tsx
+msgid "Close computer"
+msgstr "إغلاق الحاسوب"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Close image preview"
+msgstr "إغلاق معاينة الصورة"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Close integrations"
+msgstr "إغلاق التكاملات"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Close MCP servers"
+msgstr "إغلاق خوادم MCP"
+
+#: src/pages/MemorySettingsOverlay.tsx
+#: src/pages/SettingsOverlay.tsx
+msgid "Close memory settings"
+msgstr "إغلاق إعدادات الذاكرة"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Close messaging settings"
+msgstr "إغلاق إعدادات المراسلة"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/SettingsOverlay.tsx
+msgid "Close model settings"
+msgstr "إغلاق إعدادات النموذج"
+
+#: src/pages/Shell.tsx
+msgid "Close navigation"
+msgstr "إغلاق التنقل"
+
+#: src/pages/GroupPanel.tsx
+#: src/pages/Shell.tsx
+msgid "Close panel"
+msgstr "إغلاق اللوحة"
+
+#: src/components/ArtifactFileCard.tsx
+msgid "Close preview"
+msgstr "إغلاق المعاينة"
+
+#: src/pages/SettingsOverlay.tsx
+msgid "Close user settings"
+msgstr "إغلاق إعدادات المستخدم"
+
+#: src/pages/SettingsOverlay.tsx
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Close voice settings"
+msgstr "إغلاق إعدادات الصوت"
+
+#: src/pages/memory-providers/SupermemorySettingsForm.tsx
+msgid "Cloud"
+msgstr "سحابي"
+
+#: src/components/AskCard.tsx
+msgid "Code"
+msgstr "الرمز"
+
+#. placeholder {0}: group.title
+#. placeholder {0}: item.chat.name
+#: src/pages/Shell.tsx
+msgid "Collapse {0}"
+msgstr "طيّ {0}"
+
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Color"
+msgstr "اللون"
+
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Color {color}"
+msgstr "اللون {color}"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Comfortable"
+msgstr "مريح"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Coming soon"
+msgstr "قريبًا"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Command"
+msgstr "الأمر"
+
+#: src/components/AskCard.tsx
+#: src/pages/shell/bot-credentials.tsx
+msgid "Command variable"
+msgstr "متغيّر الأمر"
+
+#: src/pages/Board.tsx
+msgid "Comment"
+msgstr "تعليق"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Compact"
+msgstr "مضغوط"
+
+#: src/pages/ScratchpadSection.tsx
+msgid "Complete"
+msgstr "مكتمل"
+
+#: src/pages/SettingsOverlay.tsx
+#: src/pages/Shell.tsx
+#: src/pages/shell/bot-panel.tsx
+msgid "Computer"
+msgstr "الحاسوب"
+
+#: src/pages/Shell.tsx
+msgid "Computer failed to boot"
+msgstr "تعذّر تشغيل الحاسوب"
+
+#: src/pages/Shell.tsx
+msgid "Computer is asleep"
+msgstr "الحاسوب في وضع السكون"
+
+#: src/pages/Shell.tsx
+msgid "Computer is asleep. Open it to wake."
+msgstr "الحاسوب في وضع السكون. افتحه لتنشيطه."
+
+#: src/pages/Shell.tsx
+msgid "Computer is stopped"
+msgstr "الحاسوب متوقف"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Computers"
+msgstr "الحواسيب"
+
+#: src/components/ComputersUnavailableHint.tsx
+msgid "Computers are available. Reload or open a bot to continue."
+msgstr "الحواسيب متاحة. أعد التحميل أو افتح بوتًا للمتابعة."
+
+#: src/components/ComputersUnavailableHint.tsx
+msgid "Computers are off. Set SANDBOX_PROVIDER=docker with SANDBOX_SUPERVISOR_TOKEN, or set SANDBOX_PROVIDER to e2b, daytona, or box with its API key. Recreate the stack after changing .env."
+msgstr "الحواسيب معطّلة. اضبط SANDBOX_PROVIDER=docker مع SANDBOX_SUPERVISOR_TOKEN، أو اضبط SANDBOX_PROVIDER على e2b أو daytona أو box مع مفتاح API الخاص به. أعد إنشاء الحزمة بعد تغيير ‎.env."
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Configure a plugin catalog on the server to connect apps."
+msgstr "اضبط كتالوج إضافات على الخادم لربط التطبيقات."
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Configured by deployment"
+msgstr "مضبوط من خلال النشر"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Configured servers"
+msgstr "الخوادم المضبوطة"
+
+#: src/pages/KnowledgeSection.tsx
+#: src/pages/McpServersOverlay.tsx
+msgid "Confirm delete"
+msgstr "تأكيد الحذف"
+
+#: src/pages/AccountSettingsOverlay.tsx
+#: src/pages/Auth.tsx
+msgid "Confirm password"
+msgstr "تأكيد كلمة المرور"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Confirm the URL is reachable from this browser session, then test again."
+msgstr "تأكّد من إمكانية الوصول إلى عنوان URL من جلسة المتصفح هذه، ثم أعد الاختبار."
+
+#: src/components/integrations/IntegrationSetup.tsx
+#: src/pages/memory-providers/SerenitySettingsForm.tsx
+#: src/pages/memory-providers/SupermemorySettingsForm.tsx
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Connect"
+msgstr "ربط"
+
+#: src/pages/Onboarding.tsx
+msgid "Connect a model"
+msgstr "ربط نموذج"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Connect a provider to add backups."
+msgstr "اربط مزوّدًا لإضافة نماذج احتياطية."
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Connect API key"
+msgstr "ربط مفتاح API"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Connect Executor"
+msgstr "ربط Executor"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Connect MCP server “{name}”"
+msgstr "ربط خادم MCP «{name}»"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Connect OAuth"
+msgstr "ربط OAuth"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Connect this provider to use it as your personal model."
+msgstr "اربط هذا المزوّد لاستخدامه نموذجًا شخصيًا لك."
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Connect Treg"
+msgstr "ربط Treg"
+
+#: src/components/integrations/IntegrationSetup.tsx
+#: src/pages/McpOAuthCallback.tsx
+#: src/pages/MemorySettingsOverlay.tsx
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/shell/message-cards.tsx
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Connected"
+msgstr "متصل"
+
+#. placeholder {0}: credential.label
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Connected · {0}"
+msgstr "متصل · {0}"
+
+#. placeholder {0}: selected.name
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Connected {0}."
+msgstr "تم ربط {0}."
+
+#. placeholder {0}: selected.label
+#. placeholder {0}: selectedLabelRef.current ?? "this model"
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Connected and using {0}."
+msgstr "متصل ويستخدم {0}."
+
+#: src/pages/shell/message-cards.tsx
+msgid "Connected. Its tools are available from your next message."
+msgstr "تم الاتصال. ستتوفر أدواته بدءًا من رسالتك التالية."
+
+#: src/components/integrations/IntegrationSetup.tsx
+#: src/pages/McpServersOverlay.tsx
+#: src/pages/memory-providers/SerenitySettingsForm.tsx
+#: src/pages/memory-providers/SupermemorySettingsForm.tsx
+#: src/pages/shell/message-cards.tsx
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Connecting…"
+msgstr "جارٍ الاتصال…"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Connection test failed."
+msgstr "فشل اختبار الاتصال."
+
+#. placeholder {0}: item.name
+#: src/pages/PluginsOverlay.tsx
+msgid "Connection to {0} is still pending. You can close this and check again."
+msgstr "لا يزال الاتصال بـ {0} قيد الانتظار. يمكنك إغلاق هذه النافذة والتحقق مجددًا."
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Context limit"
+msgstr "حد السياق"
+
+#: src/components/integrations/IntegrationSetup.tsx
+#: src/pages/Onboarding.tsx
+msgid "Continue"
+msgstr "متابعة"
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Continue in Background"
+msgstr "المتابعة في الخلفية"
+
+#. placeholder {0}: reset.sso.name
+#: src/pages/Auth.tsx
+msgid "Continue with {0}"
+msgstr "المتابعة باستخدام {0}"
+
+#: src/pages/Auth.tsx
+msgid "Continue with email"
+msgstr "المتابعة بالبريد الإلكتروني"
+
+#: src/components/ComputersUnavailableHint.tsx
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Copied"
+msgstr "تم النسخ"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+#: src/pages/Shell.tsx
+msgid "Copy"
+msgstr "نسخ"
+
+#: src/components/ComputersUnavailableHint.tsx
+msgid "Copy .env example"
+msgstr "نسخ مثال ملف .env"
+
+#: src/pages/ScratchpadSection.tsx
+msgid "Could not add"
+msgstr "تعذّرت الإضافة"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Could not add MCP server"
+msgstr "تعذّرت إضافة خادم MCP"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Could not approve this server"
+msgstr "تعذّرت الموافقة على هذا الخادم"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Could not authorize this app"
+msgstr "تعذّر تفويض هذا التطبيق"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Could not change password"
+msgstr "تعذّر تغيير كلمة المرور"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Could not change the default model"
+msgstr "تعذّر تغيير النموذج الافتراضي"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Could not check stored credentials."
+msgstr "تعذّر التحقق من بيانات الاعتماد المحفوظة."
+
+#: src/components/teach/TeachComputerOverlay.tsx
+msgid "Could not check teaching status. Refresh the view to continue."
+msgstr "تعذّر التحقق من حالة التعليم. حدّث العرض للمتابعة."
+
+#: src/pages/shell/dialogs.tsx
+msgid "Could not clear conversation"
+msgstr "تعذّر مسح المحادثة"
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Could not complete action"
+msgstr "تعذّر إكمال الإجراء"
+
+#: src/pages/McpOAuthCallback.tsx
+msgid "Could not complete OAuth"
+msgstr "تعذّر إكمال OAuth"
+
+#: src/components/DesktopUpdates.tsx
+msgid "Could not complete the update. Try again."
+msgstr "تعذّر إكمال التحديث. حاول مرة أخرى."
+
+#: src/components/integrations/IntegrationSetup.tsx
+#: src/pages/PluginsOverlay.tsx
+msgid "Could not connect"
+msgstr "تعذّر الاتصال"
+
+#. placeholder {0}: registration.name
+#: src/pages/MemorySettingsOverlay.tsx
+msgid "Could not connect {0}"
+msgstr "تعذّر ربط {0}"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Could not connect this provider"
+msgstr "تعذّر ربط هذا المزوّد"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Could not connect this voice provider"
+msgstr "تعذّر ربط مزوّد الصوت هذا"
+
+#: src/pages/Shell.tsx
+msgid "Could not connect to the computer screen"
+msgstr "تعذّر الاتصال بشاشة الحاسوب"
+
+#: src/components/AccountAccess.tsx
+#: src/lib/account-security.ts
+#: src/lib/sso-flow.ts
+#: src/lib/user-error.ts
+#: src/pages/Auth.tsx
+#: src/pages/Shell.tsx
+msgid "Could not continue"
+msgstr "تعذّرت المتابعة"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Could not create bot"
+msgstr "تعذّر إنشاء البوت"
+
+#: src/pages/GroupPanel.tsx
+msgid "Could not create group"
+msgstr "تعذّر إنشاء المجموعة"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Could not create section"
+msgstr "تعذّر إنشاء القسم"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Could not create space"
+msgstr "تعذّر إنشاء المساحة"
+
+#: src/pages/Onboarding.tsx
+msgid "Could not create your bot"
+msgstr "تعذّر إنشاء البوت الخاص بك"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Could not delete bot"
+msgstr "تعذّر حذف البوت"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Could not delete group"
+msgstr "تعذّر حذف المجموعة"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Could not delete MCP server"
+msgstr "تعذّر حذف خادم MCP"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Could not delete routine"
+msgstr "تعذّر حذف المهمة المجدولة"
+
+#: src/pages/KnowledgeSection.tsx
+msgid "Could not delete skill"
+msgstr "تعذّر حذف المهارة"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Could not delete space"
+msgstr "تعذّر حذف المساحة"
+
+#: src/pages/Artifacts.tsx
+msgid "Could not delete this artifact."
+msgstr "تعذّر حذف هذا الملف الناتج."
+
+#: src/pages/MemorySettingsOverlay.tsx
+msgid "Could not disconnect memory provider"
+msgstr "تعذّر فصل مزوّد الذاكرة"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Could not disconnect OAuth"
+msgstr "تعذّر فصل OAuth"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Could not disconnect this provider"
+msgstr "تعذّر فصل هذا المزوّد"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Could not disconnect this voice provider"
+msgstr "تعذّر فصل مزوّد الصوت هذا"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Could not dismiss"
+msgstr "تعذّر التجاهل"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Could not dismiss this server"
+msgstr "تعذّر تجاهل هذا الخادم"
+
+#. placeholder {0}: props.name
+#: src/components/ArtifactFileCard.tsx
+msgid "Could not download {0}. Try again."
+msgstr "تعذّر تنزيل {0}. حاول مرة أخرى."
+
+#: src/components/ArtifactFileCard.tsx
+msgid "Could not download {name}. Try again."
+msgstr "تعذّر تنزيل {name}. حاول مرة أخرى."
+
+#: src/components/computer/FilesApp.tsx
+msgid "Could not download file"
+msgstr "تعذّر تنزيل الملف"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Could not install connector"
+msgstr "تعذّر تثبيت الموصل"
+
+#: src/components/computer/FilesApp.tsx
+msgid "Could not list files"
+msgstr "تعذّر عرض الملفات"
+
+#: src/components/ErrorBoundary.tsx
+#: src/pages/KnowledgeSection.tsx
+msgid "Could not load"
+msgstr "تعذّر التحميل"
+
+#: src/pages/ActivityList.tsx
+msgid "Could not load activity"
+msgstr "تعذّر تحميل النشاط"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Could not load approval rules"
+msgstr "تعذّر تحميل قواعد الموافقة"
+
+#: src/pages/Artifacts.tsx
+msgid "Could not load artifacts."
+msgstr "تعذّر تحميل الملفات الناتجة."
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Could not load backup models"
+msgstr "تعذّر تحميل النماذج الاحتياطية"
+
+#: src/pages/BillingSettingsPanel.tsx
+msgid "Could not load billing"
+msgstr "تعذّر تحميل الفوترة"
+
+#: src/pages/IntegrationSetup.tsx
+msgid "Could not load bots. Reload to try again."
+msgstr "تعذّر تحميل البوتات. أعد التحميل للمحاولة مرة أخرى."
+
+#: src/components/computer/TerminalApp.tsx
+msgid "Could not load commands"
+msgstr "تعذّر تحميل الأوامر"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Could not load credentials."
+msgstr "تعذّر تحميل بيانات الاعتماد."
+
+#: src/components/integrations/IntegrationSetup.tsx
+#: src/pages/PluginsOverlay.tsx
+msgid "Could not load integrations"
+msgstr "تعذّر تحميل التكاملات"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Could not load MCP servers"
+msgstr "تعذّر تحميل خوادم MCP"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Could not load model settings"
+msgstr "تعذّر تحميل إعدادات النموذج"
+
+#: src/pages/RoutineRunHistory.tsx
+msgid "Could not load run history"
+msgstr "تعذّر تحميل سجل عمليات التشغيل"
+
+#: src/lib/account-security.ts
+#: src/pages/Auth.tsx
+msgid "Could not load sign-in options"
+msgstr "تعذّر تحميل خيارات تسجيل الدخول"
+
+#: src/pages/KnowledgeSection.tsx
+msgid "Could not load skill"
+msgstr "تعذّر تحميل المهارة"
+
+#: src/pages/Artifacts.tsx
+msgid "Could not load this artifact."
+msgstr "تعذّر تحميل هذا الملف الناتج."
+
+#: src/pages/PeerMessagesOverlay.tsx
+msgid "Could not load this chat."
+msgstr "تعذّر تحميل هذه المحادثة."
+
+#: src/components/ArtifactFileCard.tsx
+msgid "Could not load this file."
+msgstr "تعذّر تحميل هذا الملف."
+
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Could not load update status"
+msgstr "تعذّر تحميل حالة التحديث"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Could not load voice settings"
+msgstr "تعذّر تحميل إعدادات الصوت"
+
+#: src/pages/BillingSettingsPanel.tsx
+#: src/pages/Paywall.tsx
+msgid "Could not open billing"
+msgstr "تعذّر فتح الفوترة"
+
+#: src/components/computer/FilesApp.tsx
+msgid "Could not open file"
+msgstr "تعذّر فتح الملف"
+
+#: src/pages/LocalSettings.tsx
+msgid "Could not open local settings. Start the local server and create its owner account, then try again."
+msgstr "تعذّر فتح الإعدادات المحلية. شغّل الخادم المحلي وأنشئ حساب مالكه، ثم حاول مرة أخرى."
+
+#: src/components/computer/TerminalApp.tsx
+msgid "Could not open terminal"
+msgstr "تعذّر فتح الطرفية"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Could not play a test clip"
+msgstr "تعذّر تشغيل مقطع تجريبي"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Could not reach the model server."
+msgstr "تعذّر الوصول إلى خادم النموذج."
+
+#: src/lib/computer-sandbox.ts
+#: src/lib/user-error.ts
+#: src/pages/AccountSettingsOverlay.tsx
+#: src/pages/Auth.tsx
+msgid "Could not reach the server"
+msgstr "تعذّر الوصول إلى الخادم"
+
+#: src/pages/ScratchpadSection.tsx
+msgid "Could not remove"
+msgstr "تعذّرت الإزالة"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Could not remove connector"
+msgstr "تعذّرت إزالة الموصل"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Could not remove rule"
+msgstr "تعذّرت إزالة القاعدة"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Could not remove the credential"
+msgstr "تعذّرت إزالة بيانات الاعتماد"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Could not rename connection"
+msgstr "تعذّرت إعادة تسمية الاتصال"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Could not rename section"
+msgstr "تعذّرت إعادة تسمية القسم"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Could not rename space"
+msgstr "تعذّرت إعادة تسمية المساحة"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Could not render chart"
+msgstr "تعذّر عرض المخطط"
+
+#: src/pages/Auth.tsx
+msgid "Could not reset password"
+msgstr "تعذّرت إعادة تعيين كلمة المرور"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Could not revoke connection"
+msgstr "تعذّر إلغاء الاتصال"
+
+#: src/pages/Shell.tsx
+msgid "Could not run routine"
+msgstr "تعذّر تشغيل المهمة المجدولة"
+
+#: src/pages/ExternalConversationSettings.tsx
+#: src/pages/KnowledgeSection.tsx
+#: src/pages/shell/bot-panel.tsx
+msgid "Could not save"
+msgstr "تعذّر الحفظ"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Could not save Auto Review"
+msgstr "تعذّر حفظ المراجعة التلقائية"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Could not save backup models"
+msgstr "تعذّر حفظ النماذج الاحتياطية"
+
+#: src/pages/GroupPanel.tsx
+msgid "Could not save group"
+msgstr "تعذّر حفظ المجموعة"
+
+#: src/pages/Onboarding.tsx
+msgid "Could not save model"
+msgstr "تعذّر حفظ النموذج"
+
+#: src/pages/Shell.tsx
+msgid "Could not save routine"
+msgstr "تعذّر حفظ المهمة المجدولة"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Could not save rule"
+msgstr "تعذّر حفظ القاعدة"
+
+#: src/pages/KnowledgeSection.tsx
+msgid "Could not save skill"
+msgstr "تعذّر حفظ المهارة"
+
+#: src/pages/HostComputerPrompt.tsx
+msgid "Could not save that choice"
+msgstr "تعذّر حفظ هذا الاختيار"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Could not save that speech model"
+msgstr "تعذّر حفظ نموذج الكلام هذا"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Could not save that voice"
+msgstr "تعذّر حفظ هذا الصوت"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Could not save the credential"
+msgstr "تعذّر حفظ بيانات الاعتماد"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Could not save this choice"
+msgstr "تعذّر حفظ هذا الاختيار"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Could not search catalog"
+msgstr "تعذّر البحث في الدليل"
+
+#: src/pages/Auth.tsx
+msgid "Could not send reset email"
+msgstr "تعذّر إرسال بريد إعادة التعيين"
+
+#: src/lib/call-session.ts
+msgid "Could not send that"
+msgstr "تعذّر إرسال ذلك"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Could not start OAuth"
+msgstr "تعذّر بدء OAuth"
+
+#: src/components/teach/TeachComputerOverlay.tsx
+msgid "Could not start teaching"
+msgstr "تعذّر بدء التعليم"
+
+#: src/components/AskCard.tsx
+msgid "Could not submit this answer"
+msgstr "تعذّر إرسال هذه الإجابة"
+
+#: src/pages/Shell.tsx
+msgid "Could not take control"
+msgstr "تعذّر تولي التحكم"
+
+#: src/pages/ScratchpadSection.tsx
+msgid "Could not update"
+msgstr "تعذّر التحديث"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Could not update agent access"
+msgstr "تعذّر تحديث وصول الوكيل"
+
+#: src/components/ComputerMaintenanceActions.tsx
+msgid "Could not update computer"
+msgstr "تعذّر تحديث الحاسوب"
+
+#: src/pages/Shell.tsx
+msgid "Could not update reaction"
+msgstr "تعذّر تحديث التفاعل"
+
+#: src/pages/MemorySettingsOverlay.tsx
+msgid "Could not update the default memory scope"
+msgstr "تعذّر تحديث نطاق الذاكرة الافتراضي"
+
+#: src/components/computer/FilesApp.tsx
+msgid "Could not upload file"
+msgstr "تعذّر رفع الملف"
+
+#: src/components/ComputersUnavailableHint.tsx
+msgid "Could not verify computer setup ({failureMessage}). Fix the connection, then check again."
+msgstr "تعذّر التحقق من إعداد الحاسوب ({failureMessage}). أصلح الاتصال، ثم تحقّق مرة أخرى."
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Couldn't load messaging settings"
+msgstr "تعذّر تحميل إعدادات المراسلة"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Couldn't update avatars"
+msgstr "تعذّر تحديث الصور الرمزية"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Couldn't update messaging settings"
+msgstr "تعذّر تحديث إعدادات المراسلة"
+
+#: src/pages/Board.tsx
+#: src/pages/Shell.tsx
+#: src/pages/shell/bot-panel.tsx
+#: src/pages/shell/dialogs.tsx
+msgid "Create"
+msgstr "إنشاء"
+
+#. placeholder {0}: bot.name
+#: src/pages/shell/dialogs.tsx
+msgid "Create a section and move {0} into it."
+msgstr "أنشئ قسمًا وانقل {0} إليه."
+
+#: src/pages/Auth.tsx
+msgid "Create account"
+msgstr "إنشاء حساب"
+
+#: src/pages/GroupPanel.tsx
+msgid "Create group"
+msgstr "إنشاء مجموعة"
+
+#: src/pages/Shell.tsx
+#: src/pages/shell/bot-picker.tsx
+msgid "Create new Bot"
+msgstr "إنشاء بوت جديد"
+
+#: src/pages/shell/bot-picker.tsx
+msgid "Create new Group"
+msgstr "إنشاء مجموعة جديدة"
+
+#: src/pages/shell/bot-picker.tsx
+msgid "Create new Space"
+msgstr "إنشاء مساحة جديدة"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Create Routine"
+msgstr "إنشاء مهمة مجدولة"
+
+#: src/components/AskCard.tsx
+#: src/pages/shell/dialogs.tsx
+msgid "Create space"
+msgstr "إنشاء مساحة"
+
+#: src/pages/Auth.tsx
+msgid "Create your Rakazo"
+msgstr "أنشئ حسابك في Rakazo"
+
+#: src/components/AskCard.tsx
+msgid "Created"
+msgstr "تم الإنشاء"
+
+#: src/pages/GroupPanel.tsx
+#: src/pages/shell/bot-panel.tsx
+#: src/pages/shell/dialogs.tsx
+msgid "Creating…"
+msgstr "جارٍ الإنشاء…"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Credential"
+msgstr "بيانات الاعتماد"
+
+#: src/pages/McpServersOverlay.tsx
+#: src/pages/PluginsOverlay.tsx
+msgid "credential saved"
+msgstr "تم حفظ بيانات الاعتماد"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Credentials"
+msgstr "بيانات الاعتماد"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Credentials are encrypted and never sent to the model."
+msgstr "بيانات الاعتماد مشفّرة ولا تُرسَل إلى النموذج أبدًا."
+
+#: src/pages/RoutineSchedule.tsx
+msgid "Cron"
+msgstr "Cron"
+
+#: src/pages/RoutineSchedule.tsx
+msgid "Cron expression"
+msgstr "تعبير cron"
+
+#: src/components/AccountAccess.tsx
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Current password"
+msgstr "كلمة المرور الحالية"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Custom header"
+msgstr "ترويسة مخصّصة"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Customer support"
+msgstr "دعم العملاء"
+
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Customize bot avatar"
+msgstr "تخصيص صورة البوت الرمزية"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Dark"
+msgstr "داكن"
+
+#: src/lib/billing.ts
+#: src/pages/RoutineSchedule.tsx
+msgid "day"
+msgstr "يوم"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Day-to-day work"
+msgstr "العمل اليومي"
+
+#: src/pages/RoutineSchedule.tsx
+msgid "days"
+msgstr "أيام"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Decline"
+msgstr "رفض"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Default"
+msgstr "افتراضي"
+
+#. js-lingui-explicit-id
+#. placeholder {0}: thinkingLevelLabel("medium")
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Default ({0})"
+msgstr "افتراضي ({0})"
+
+#. placeholder {0}: thinkingLevelLabel("medium")
+#. placeholder {0}: thinkingLevelLabel(defaultThinkingLevel)
+#: src/pages/Onboarding.tsx
+#: src/pages/RoutineEditor.tsx
+#: src/pages/shell/bot-panel.tsx
+msgid "Default ({0})"
+msgstr "افتراضي ({0})"
+
+#: src/pages/MemorySettingsOverlay.tsx
+msgid "Default scope"
+msgstr "النطاق الافتراضي"
+
+#: src/pages/Artifacts.tsx
+#: src/pages/BotContextMenu.tsx
+#: src/pages/KnowledgeSection.tsx
+#: src/pages/McpServersOverlay.tsx
+#: src/pages/RoutineEditor.tsx
+#: src/pages/Shell.tsx
+#: src/pages/shell/dialogs.tsx
+msgid "Delete"
+msgstr "حذف"
+
+#. placeholder {0}: pendingDelete.name
+#: src/pages/Artifacts.tsx
+msgid "Delete \"{0}\"?"
+msgstr "حذف «{0}»؟"
+
+#. placeholder {0}: artifact.name
+#. placeholder {0}: bot.name
+#. placeholder {0}: group.name
+#: src/pages/Artifacts.tsx
+#: src/pages/Shell.tsx
+msgid "Delete {0}"
+msgstr "حذف {0}"
+
+#. placeholder {0}: bot.name
+#. placeholder {0}: item.name
+#: src/pages/shell/dialogs.tsx
+msgid "Delete {0}?"
+msgstr "حذف {0}؟"
+
+#: src/components/AccountAccess.tsx
+msgid "Delete account"
+msgstr "حذف الحساب"
+
+#: src/pages/GroupPanel.tsx
+msgid "Delete group"
+msgstr "حذف المجموعة"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Delete memories too"
+msgstr "حذف الذكريات أيضًا"
+
+#: src/pages/Shell.tsx
+msgid "Delete space"
+msgstr "حذف المساحة"
+
+#: src/pages/Shell.tsx
+msgid "deleted"
+msgstr "محذوف"
+
+#: src/pages/Artifacts.tsx
+#: src/pages/shell/dialogs.tsx
+msgid "Deleting…"
+msgstr "جارٍ الحذف…"
+
+#: src/components/AccountAccess.tsx
+msgid "Deletion code"
+msgstr "رمز الحذف"
+
+#: src/components/AskCard.tsx
+msgid "Denied"
+msgstr "مرفوض"
+
+#: src/components/AskCard.tsx
+msgid "Deny"
+msgstr "رفض"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Deployment default"
+msgstr "الإعداد الافتراضي للنشر"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Describe what this bot does"
+msgstr "صف ما يفعله هذا البوت"
+
+#: src/pages/Board.tsx
+#: src/pages/shell/bot-panel.tsx
+msgid "Description"
+msgstr "الوصف"
+
+#: src/components/DesktopUpdates.tsx
+msgid "Desktop app"
+msgstr "تطبيق سطح المكتب"
+
+#: src/components/DesktopUpdates.tsx
+msgid "Desktop update"
+msgstr "تحديث تطبيق سطح المكتب"
+
+#: src/components/integrations/IntegrationSetup.tsx
+msgid "Direct MCP"
+msgstr "MCP مباشر"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Disabled tools"
+msgstr "الأدوات المعطّلة"
+
+#: src/pages/McpServersOverlay.tsx
+#: src/pages/MemorySettingsOverlay.tsx
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Disconnect"
+msgstr "قطع الاتصال"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Disconnect {disconnectName}?"
+msgstr "قطع الاتصال بـ {disconnectName}؟"
+
+#. placeholder {0}: selected.providerName ?? selected.provider
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Disconnected {0}."
+msgstr "تم قطع الاتصال بـ {0}."
+
+#: src/pages/MemorySettingsOverlay.tsx
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Disconnecting…"
+msgstr "جارٍ قطع الاتصال…"
+
+#: src/components/ComputerUpdateProgress.tsx
+#: src/components/teach/TeachComputerOverlay.tsx
+#: src/pages/shell/message-cards.tsx
+msgid "Dismiss"
+msgstr "تجاهل"
+
+#: src/pages/Shell.tsx
+msgid "Dismiss error"
+msgstr "تجاهل الخطأ"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Dismissed. Reconnect anytime from MCP settings."
+msgstr "تم التجاهل. يمكنك إعادة الاتصال في أي وقت من إعدادات MCP."
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Display name"
+msgstr "الاسم المعروض"
+
+#: src/pages/HostComputerPrompt.tsx
+msgid "Docker"
+msgstr "Docker"
+
+#: src/components/ComputersUnavailableHint.tsx
+msgid "Docker is configured but computers are not responding. Confirm the sandbox supervisor is running, then recreate the stack after changing .env."
+msgstr "Docker مُعدّ لكن الحواسيب لا تستجيب. تأكد من أن مشرف البيئة المعزولة قيد التشغيل، ثم أعد إنشاء الحزمة بعد تعديل .env."
+
+#: src/pages/HostComputerPrompt.tsx
+msgid "Docker limits access to your computer for added security. Using {hostLabel} lets bots work with your local files and tools."
+msgstr "يقيّد Docker الوصول إلى حاسوبك لمزيد من الأمان. يتيح استخدام {hostLabel} للبوتات العمل على ملفاتك وأدواتك المحلية."
+
+#: src/pages/Auth.tsx
+msgid "Don’t have an account?"
+msgstr "ليس لديك حساب؟"
+
+#: src/lib/ticket-status.ts
+#: src/pages/ActivityList.tsx
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Done"
+msgstr "تم"
+
+#: src/components/computer/FilesApp.tsx
+#: src/pages/Artifacts.tsx
+msgid "Download"
+msgstr "تنزيل"
+
+#. placeholder {0}: basename(entry.path)
+#. placeholder {0}: props.name
+#: src/components/ArtifactFileCard.tsx
+#: src/components/computer/FilesApp.tsx
+msgid "Download {0}"
+msgstr "تنزيل {0}"
+
+#: src/components/ArtifactFileCard.tsx
+msgid "Download {name}"
+msgstr "تنزيل {name}"
+
+#: src/pages/KnowledgeSection.tsx
+msgid "Download as markdown"
+msgstr "تنزيل بصيغة Markdown"
+
+#: src/components/integrations/IntegrationSetup.tsx
+msgid "Download Executor"
+msgstr "تنزيل Executor"
+
+#: src/components/DesktopUpdates.tsx
+msgid "Downloading…"
+msgstr "جارٍ التنزيل…"
+
+#: src/components/teach/SkillDraftCard.tsx
+msgid "Draft skill"
+msgstr "مسودة مهارة"
+
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Drag, drop, or paste an image"
+msgstr "اسحب صورة وأفلتها أو الصقها"
+
+#: src/pages/BotContextMenu.tsx
+msgid "Duplicate"
+msgstr "تكرار"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "e.g. Hivenet Agent, Presales, Timesheets bot"
+msgstr "مثال: وكيل Hivenet، ما قبل البيع، بوت سجلات الدوام"
+
+#: src/components/AskCard.tsx
+msgid "Edit first"
+msgstr "تعديل أولًا"
+
+#: src/pages/BotContextMenu.tsx
+msgid "Edit Profile"
+msgstr "تعديل الملف الشخصي"
+
+#: src/pages/Auth.tsx
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: src/lib/user-error.ts
+msgid "Email is not allowed to register"
+msgstr "هذا البريد الإلكتروني غير مسموح له بالتسجيل"
+
+#: src/lib/user-error.ts
+msgid "Email verification required"
+msgstr "يلزم التحقق من البريد الإلكتروني"
+
+#: src/pages/BillingSettingsPanel.tsx
+msgid "Ends {day}"
+msgstr "ينتهي في {day}"
+
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Engage when... Ignore..."
+msgstr "تفاعل عندما... تجاهل..."
+
+#: src/lib/user-error.ts
+msgid "Enter a password"
+msgstr "أدخل كلمة مرور"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Enter a username and password"
+msgstr "أدخل اسم مستخدم وكلمة مرور"
+
+#: src/lib/user-error.ts
+msgid "Enter a valid email"
+msgstr "أدخل بريدًا إلكترونيًا صالحًا"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Enter a whole number from 1 to {MAX_MODEL_CONTEXT_WINDOW} for the context limit."
+msgstr "أدخل عددًا صحيحًا من 1 إلى {MAX_MODEL_CONTEXT_WINDOW} لحد السياق."
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Enter a whole number from 1 to {MAX_MODEL_MAX_TOKENS} for maximum output tokens."
+msgstr "أدخل عددًا صحيحًا من 1 إلى {MAX_MODEL_MAX_TOKENS} للحد الأقصى لرموز الإخراج."
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Enter a whole number from 1 to 1000 for the image limit."
+msgstr "أدخل عددًا صحيحًا من 1 إلى 1000 لحد الصور."
+
+#: src/lib/model-connection-preflight.ts
+msgid "Enter an API key before testing."
+msgstr "أدخل مفتاح API قبل الاختبار."
+
+#: src/lib/roster-status.ts
+#: src/pages/Shell.tsx
+msgid "Error"
+msgstr "خطأ"
+
+#: src/pages/ExternalConversationSettings.tsx
+#: src/pages/RoutineSchedule.tsx
+msgid "Every"
+msgstr "كل"
+
+#: src/pages/RoutineSchedule.tsx
+msgid "every {intervalAmountSelect} {intervalUnitSelect}"
+msgstr "كل {intervalAmountSelect} {intervalUnitSelect}"
+
+#: src/pages/RoutineEditor.tsx
+#: src/pages/RoutineSchedule.tsx
+msgid "Every day"
+msgstr "كل يوم"
+
+#: src/pages/RoutineEditor.tsx
+#: src/pages/RoutineSchedule.tsx
+msgid "Every hour"
+msgstr "كل ساعة"
+
+#: src/pages/RoutineSchedule.tsx
+msgid "Every Monday"
+msgstr "كل يوم اثنين"
+
+#: src/pages/RoutineEditor.tsx
+#: src/pages/RoutineSchedule.tsx
+msgid "Every month"
+msgstr "كل شهر"
+
+#: src/pages/RoutineEditor.tsx
+#: src/pages/RoutineSchedule.tsx
+msgid "Every week"
+msgstr "كل أسبوع"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Executor token"
+msgstr "رمز Executor"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Expand"
+msgstr "توسيع"
+
+#. placeholder {0}: group.title
+#. placeholder {0}: item.chat.name
+#: src/pages/Shell.tsx
+msgid "Expand {0}"
+msgstr "توسيع {0}"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Export"
+msgstr "تصدير"
+
+#: src/components/teach/TeachComputerOverlay.tsx
+msgid "Export this week's list from the CRM and drop it in the shared folder"
+msgstr "صدّر قائمة هذا الأسبوع من نظام CRM وضعها في المجلد المشترك"
+
+#: src/pages/ExternalConversationSettings.tsx
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "External conversation"
+msgstr "محادثة خارجية"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Extra high"
+msgstr "مرتفع جدًا"
+
+#. js-lingui-explicit-id
+#: src/lib/model-catalog.ts
+msgid "Extra high"
+msgstr "مرتفع جدًا"
+
+#: src/components/CloudAgentCard.tsx
+msgid "failed"
+msgstr "فشل"
+
+#: src/pages/ActivityList.tsx
+msgid "Failed"
+msgstr "فشل"
+
+#: src/pages/Shell.tsx
+msgid "Failed to send message"
+msgstr "تعذّر إرسال الرسالة"
+
+#: src/pages/Shell.tsx
+msgid "Failed to stop"
+msgstr "تعذّر الإيقاف"
+
+#. js-lingui-explicit-id
+#: src/lib/browser-notifications.ts
+msgid "Failed."
+msgstr "فشل."
+
+#: src/components/teach/SkillDraftCard.tsx
+msgid "Failure handling"
+msgstr "التعامل مع الفشل"
+
+#: src/components/computer/FilesApp.tsx
+msgid "File is too large to upload."
+msgstr "الملف كبير جدًا ولا يمكن رفعه."
+
+#: src/components/computer/ComputerWorkspace.tsx
+msgid "Files"
+msgstr "الملفات"
+
+#: src/pages/Artifacts.tsx
+msgid "Filter by date"
+msgstr "تصفية حسب التاريخ"
+
+#: src/pages/Artifacts.tsx
+msgid "Filters"
+msgstr "عوامل التصفية"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Find models"
+msgstr "البحث عن نماذج"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Finding…"
+msgstr "جارٍ البحث…"
+
+#. placeholder {0}: new URL(oauth.verificationUri).hostname
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Finish signing in at <0>{0}</0>. The final page may not load; paste its URL or code here."
+msgstr "أكمل تسجيل الدخول في <0>{0}</0>. قد لا تُحمَّل الصفحة الأخيرة؛ الصق رابطها أو الرمز هنا."
+
+#: src/lib/model-connection-preflight.ts
+msgid "Finish subscription sign-in, then test again."
+msgstr "أكمل تسجيل الدخول إلى الاشتراك، ثم أعد الاختبار."
+
+#: src/components/CloudAgentCard.tsx
+msgid "finished"
+msgstr "انتهى"
+
+#. js-lingui-explicit-id
+#: src/lib/browser-notifications.ts
+msgid "Finished."
+msgstr "انتهى."
+
+#: src/pages/McpOAuthCallback.tsx
+msgid "Finishing MCP connection…"
+msgstr "جارٍ إكمال اتصال MCP…"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Flag unexpected actions"
+msgstr "الإبلاغ عن الإجراءات غير المتوقعة"
+
+#: src/pages/Auth.tsx
+msgid "Forgot password?"
+msgstr "نسيت كلمة المرور؟"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Free"
+msgstr "مجاني"
+
+#: src/pages/ActivityList.tsx
+msgid "From"
+msgstr "من"
+
+#. placeholder {0}: filters.dateRange.from
+#: src/pages/ActivityList.tsx
+msgid "From {0}"
+msgstr "من {0}"
+
+#: src/pages/WindowChrome.tsx
+msgid "Fullscreen"
+msgstr "ملء الشاشة"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Gateway ID"
+msgstr "معرّف البوابة"
+
+#: src/pages/SettingsOverlay.tsx
+msgid "General"
+msgstr "عام"
+
+#: src/components/integrations/IntegrationSetup.tsx
+msgid "Get credentials"
+msgstr "الحصول على بيانات الاعتماد"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Get notified when this Bot finishes or needs input"
+msgstr "احصل على إشعار عندما ينتهي هذا البوت أو يحتاج إلى مدخلات"
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Getting ready"
+msgstr "جارٍ التجهيز"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Git event"
+msgstr "حدث Git"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+#: src/pages/Shell.tsx
+msgid "Group"
+msgstr "مجموعة"
+
+#: src/pages/GroupPanel.tsx
+msgid "Group settings"
+msgstr "إعدادات المجموعة"
+
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Group updates"
+msgstr "تحديثات المجموعة"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Groups"
+msgstr "المجموعات"
+
+#: src/components/call/CallCard.tsx
+msgid "Hang up"
+msgstr "إنهاء المكالمة"
+
+#: src/lib/call-session.ts
+msgid "Hang up first, then enter the code on screen."
+msgstr "أنهِ المكالمة أولًا، ثم أدخل الرمز الظاهر على الشاشة."
+
+#: src/lib/call-session.ts
+msgid "Hang up, then enter the code on screen."
+msgstr "أنهِ المكالمة، ثم أدخل الرمز الظاهر على الشاشة."
+
+#: src/pages/RoutineEditor.tsx
+msgid "header"
+msgstr "ترويسة"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Header \"{header}\""
+msgstr "الترويسة «{header}»"
+
+#: src/pages/McpServersOverlay.tsx
+#: src/pages/PluginsOverlay.tsx
+#: src/pages/shell/bot-credentials.tsx
+msgid "Header name"
+msgstr "اسم الترويسة"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Header value"
+msgstr "قيمة الترويسة"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Hear a sample"
+msgstr "استمع إلى عينة"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Hi, this is how I'll sound when I read replies out loud."
+msgstr "مرحبًا، هكذا سيبدو صوتي عندما أقرأ الردود بصوت عالٍ."
+
+#: src/pages/Shell.tsx
+msgid "Hide bots"
+msgstr "إخفاء البوتات"
+
+#: src/pages/Auth.tsx
+msgid "Hide password"
+msgstr "إخفاء كلمة المرور"
+
+#: src/components/call/VoiceChatCard.tsx
+msgid "Hide transcript"
+msgstr "إخفاء النص المكتوب"
+
+#: src/lib/ticket-priority.ts
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "High"
+msgstr "مرتفع"
+
+#. js-lingui-explicit-id
+#: src/lib/model-catalog.ts
+msgid "High"
+msgstr "مرتفع"
+
+#: src/pages/RoutineSchedule.tsx
+msgid "hour"
+msgstr "ساعة"
+
+#: src/pages/ExternalConversationSettings.tsx
+#: src/pages/RoutineSchedule.tsx
+msgid "hours"
+msgstr "ساعات"
+
+#: src/pages/RoutineSchedule.tsx
+msgid "How often"
+msgstr "كم مرة"
+
+#: src/components/teach/SkillDraftCard.tsx
+msgid "How to check"
+msgstr "طريقة التحقق"
+
+#: src/pages/Shell.tsx
+msgid "I’m done"
+msgstr "انتهيت"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "If you heard that, voice is ready."
+msgstr "إذا سمعت ذلك، فالصوت جاهز."
+
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Ignore"
+msgstr "تجاهل"
+
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Image upload area"
+msgstr "منطقة رفع الصورة"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Import OpenAPI JSON"
+msgstr "استيراد OpenAPI JSON"
+
+#: src/lib/ticket-status.ts
+msgid "In progress"
+msgstr "قيد التنفيذ"
+
+#: src/lib/ticket-status.ts
+msgid "In review"
+msgstr "قيد المراجعة"
+
+#: src/pages/BillingSettingsPanel.tsx
+msgid "Inactive"
+msgstr "غير نشط"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Inbox & email"
+msgstr "البريد الوارد والبريد الإلكتروني"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Inherit default"
+msgstr "اتباع الافتراضي"
+
+#: src/components/teach/SkillDraftCard.tsx
+msgid "Inputs"
+msgstr "المدخلات"
+
+#: src/pages/memory-providers/SupermemorySettingsForm.tsx
+msgid "Instance API key"
+msgstr "مفتاح API الخاص بالمثيل"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Instruction"
+msgstr "التعليمات"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Integration domain"
+msgstr "نطاق التكامل"
+
+#: src/components/integrations/IntegrationSetup.tsx
+msgid "Integration options"
+msgstr "خيارات التكامل"
+
+#: src/pages/PluginsOverlay.tsx
+#: src/pages/Shell.tsx
+msgid "Integrations"
+msgstr "التكاملات"
+
+#: src/pages/RoutineEditor.tsx
+#: src/pages/RoutineSchedule.tsx
+msgid "Interval"
+msgstr "الفاصل الزمني"
+
+#: src/pages/RoutineSchedule.tsx
+msgid "Interval amount"
+msgstr "مقدار الفاصل الزمني"
+
+#: src/pages/RoutineSchedule.tsx
+msgid "Interval unit"
+msgstr "وحدة الفاصل الزمني"
+
+#: src/pages/MemorySettingsOverlay.tsx
+#: src/pages/shell/bot-panel.tsx
+msgid "Isolated"
+msgstr "معزول"
+
+#: src/pages/Artifacts.tsx
+msgid "Isolated preview — no access to your account"
+msgstr "معاينة معزولة — دون وصول إلى حسابك"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Its conversation, files, and routines will be permanently deleted. Bots it created stay in your list."
+msgstr "ستُحذف محادثته وملفاته ومهامه المجدولة نهائيًا. أما البوتات التي أنشأها فستبقى في قائمتك."
+
+#: src/pages/Shell.tsx
+msgid "Jump to latest"
+msgstr "الانتقال إلى الأحدث"
+
+#: src/pages/shell/chat-context.tsx
+msgid "Jump to replied message: {excerpt}"
+msgstr "الانتقال إلى الرسالة المردود عليها: {excerpt}"
+
+#: src/lib/relative-time.ts
+#: src/pages/ActivityList.tsx
+msgid "just now"
+msgstr "الآن"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Keep memories"
+msgstr "الاحتفاظ بالذكريات"
+
+#: src/pages/RoutineEditor.tsx
+msgid "key"
+msgstr "مفتاح"
+
+#: src/pages/KnowledgeSection.tsx
+msgid "Knowledge"
+msgstr "المعرفة"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Language"
+msgstr "اللغة"
+
+#: src/components/DesktopUpdates.tsx
+msgid "Later"
+msgstr "لاحقًا"
+
+#: src/components/computer/TerminalApp.tsx
+msgid "Launched {app}"
+msgstr "تم تشغيل {app}"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Leave"
+msgstr "مغادرة"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Light"
+msgstr "فاتح"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Linear issue"
+msgstr "تذكرة Linear"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Link a chat app"
+msgstr "ربط تطبيق محادثة"
+
+#: src/components/AccountAccess.tsx
+msgid "Link SSO"
+msgstr "ربط SSO"
+
+#: src/pages/Artifacts.tsx
+msgid "List view"
+msgstr "عرض القائمة"
+
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Listen"
+msgstr "استماع"
+
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Listening"
+msgstr "قيد الاستماع"
+
+#: src/pages/Shell.tsx
+msgid "Load earlier messages"
+msgstr "تحميل الرسائل الأقدم"
+
+#: src/pages/Artifacts.tsx
+msgid "Load more"
+msgstr "تحميل المزيد"
+
+#: src/pages/RoutineRunHistory.tsx
+msgid "Load older runs"
+msgstr "تحميل عمليات التشغيل الأقدم"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Load web images automatically"
+msgstr "تحميل صور الويب تلقائيًا"
+
+#: src/pages/ActivityList.tsx
+msgid "Loading activity…"
+msgstr "جارٍ تحميل النشاط…"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Loading integrations…"
+msgstr "جارٍ تحميل التكاملات…"
+
+#: src/pages/MemorySettingsOverlay.tsx
+msgid "Loading memory settings…"
+msgstr "جارٍ تحميل إعدادات الذاكرة…"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Loading model catalog…"
+msgstr "جارٍ تحميل كتالوج النماذج…"
+
+#: src/components/ArtifactFileCard.tsx
+msgid "Loading preview…"
+msgstr "جارٍ تحميل المعاينة…"
+
+#: src/components/ApprovalRulesSettings.tsx
+msgid "Loading rules…"
+msgstr "جارٍ تحميل القواعد…"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Loading tools…"
+msgstr "جارٍ تحميل الأدوات…"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Loading voice providers…"
+msgstr "جارٍ تحميل مزوّدي الصوت…"
+
+#: src/App.tsx
+#: src/pages/Artifacts.tsx
+#: src/pages/Auth.tsx
+#: src/pages/IntegrationSetup.tsx
+#: src/pages/ModelBackupsSettings.tsx
+#: src/pages/Onboarding.tsx
+#: src/pages/PeerMessagesOverlay.tsx
+#: src/pages/RoutineRunHistory.tsx
+#: src/pages/Shell.tsx
+msgid "Loading…"
+msgstr "جارٍ التحميل…"
+
+#: src/pages/memory-providers/SupermemorySettingsForm.tsx
+msgid "Local"
+msgstr "محلي"
+
+#: src/pages/HostComputerPrompt.tsx
+msgid "Local access lets bots run commands without asking. Avoid it on shared or public servers."
+msgstr "يتيح الوصول المحلي للبوتات تنفيذ الأوامر دون استئذان. تجنّبه على الخوادم المشتركة أو العامة."
+
+#: src/pages/LocalSettings.tsx
+msgid "Local Server Settings"
+msgstr "إعدادات الخادم المحلي"
+
+#: src/pages/Paywall.tsx
+#: src/pages/Shell.tsx
+msgid "Log out"
+msgstr "تسجيل الخروج"
+
+#: src/lib/ticket-priority.ts
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Low"
+msgstr "منخفض"
+
+#. js-lingui-explicit-id
+#: src/lib/model-catalog.ts
+msgid "Low"
+msgstr "منخفض"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Lowercase letters, numbers, hyphens and underscores, starting with a letter."
+msgstr "أحرف إنجليزية صغيرة وأرقام وشرطات وشرطات سفلية، على أن يبدأ بحرف."
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Make sure nothing is still running on this computer."
+msgstr "تأكّد من عدم وجود أي شيء لا يزال قيد التشغيل على هذا الحاسوب."
+
+#: src/pages/BillingSettingsPanel.tsx
+msgid "Manage"
+msgstr "إدارة"
+
+#: src/pages/Paywall.tsx
+msgid "Manage billing"
+msgstr "إدارة الفوترة"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Manage MCP servers"
+msgstr "إدارة خوادم MCP"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Manage messaging settings"
+msgstr "إدارة إعدادات المراسلة"
+
+#: src/pages/MemorySettingsOverlay.tsx
+msgid "Manage the Space semantic memory provider."
+msgstr "إدارة مزوّد الذاكرة الدلالية للمساحة."
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Manual"
+msgstr "يدوي"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Manual setup required"
+msgstr "يلزم إعداد يدوي"
+
+#: src/pages/BotContextMenu.tsx
+msgid "Mark as Read"
+msgstr "تعليم كمقروءة"
+
+#: src/pages/BotContextMenu.tsx
+msgid "Mark as Unread"
+msgstr "تعليم كغير مقروءة"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Max"
+msgstr "أقصى"
+
+#. js-lingui-explicit-id
+#: src/lib/model-catalog.ts
+msgid "Max"
+msgstr "أقصى"
+
+#: src/pages/Artifacts.tsx
+msgid "Maximize"
+msgstr "تكبير"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Maximum images per request"
+msgstr "الحد الأقصى للصور في كل طلب"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Maximum of 10 backup models."
+msgstr "الحد الأقصى 10 نماذج احتياطية."
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Maximum output tokens"
+msgstr "الحد الأقصى لرموز المخرجات"
+
+#: src/pages/memory-providers/SerenitySettingsForm.tsx
+msgid "MCP endpoint"
+msgstr "نقطة نهاية MCP"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "MCP servers"
+msgstr "خوادم MCP"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Medium"
+msgstr "متوسط"
+
+#. js-lingui-explicit-id
+#: src/lib/model-catalog.ts
+msgid "Medium"
+msgstr "متوسط"
+
+#: src/pages/GroupPanel.tsx
+msgid "Members ({GROUP_MEMBER_MIN}–{GROUP_MEMBER_MAX})"
+msgstr "الأعضاء ({GROUP_MEMBER_MIN}–{GROUP_MEMBER_MAX})"
+
+#: src/pages/GroupPanel.tsx
+msgid "Members (pick {GROUP_MEMBER_MIN}–{GROUP_MEMBER_MAX})"
+msgstr "الأعضاء (اختر {GROUP_MEMBER_MIN}–{GROUP_MEMBER_MAX})"
+
+#: src/pages/KnowledgeSection.tsx
+#: src/pages/MemorySettingsOverlay.tsx
+#: src/pages/SettingsOverlay.tsx
+msgid "Memory"
+msgstr "الذاكرة"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Memory scope"
+msgstr "نطاق الذاكرة"
+
+#: src/pages/Shell.tsx
+msgid "Mentions"
+msgstr "الإشارات"
+
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Mentions only"
+msgstr "الإشارات فقط"
+
+#: src/pages/Shell.tsx
+msgid "Message"
+msgstr "رسالة"
+
+#. js-lingui-explicit-id
+#: src/lib/browser-notifications.ts
+msgid "Message"
+msgstr "رسالة"
+
+#: src/pages/Shell.tsx
+msgid "Message {activeName}"
+msgstr "رسالة إلى {activeName}"
+
+#: src/pages/Shell.tsx
+msgid "Message composer"
+msgstr "محرّر الرسائل"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Message event"
+msgstr "حدث رسالة"
+
+#: src/pages/Shell.tsx
+msgid "Message from {peer}"
+msgstr "رسالة من {peer}"
+
+#: src/pages/Shell.tsx
+msgid "Message…"
+msgstr "رسالة…"
+
+#: src/pages/Shell.tsx
+msgid "Messaged {peer}"
+msgstr "تمت مراسلة {peer}"
+
+#: src/pages/AccountSettingsOverlay.tsx
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Messaging"
+msgstr "المراسلة"
+
+#: src/lib/call-session.ts
+msgid "Microphone failed"
+msgstr "تعطّل الميكروفون"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Minimal"
+msgstr "أدنى"
+
+#. js-lingui-explicit-id
+#: src/lib/model-catalog.ts
+msgid "Minimal"
+msgstr "أدنى"
+
+#: src/pages/WindowChrome.tsx
+msgid "Minimize"
+msgstr "تصغير"
+
+#: src/pages/Shell.tsx
+msgid "Minimize bots"
+msgstr "تصغير البوتات"
+
+#: src/pages/RoutineSchedule.tsx
+msgid "minute"
+msgstr "دقيقة"
+
+#: src/pages/RoutineSchedule.tsx
+msgid "minutes"
+msgstr "دقائق"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+#: src/pages/RoutineEditor.tsx
+#: src/pages/shell/bot-panel.tsx
+msgid "Model"
+msgstr "النموذج"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Model \"{modelId}\" was not listed."
+msgstr "النموذج \"{modelId}\" غير مُدرج في القائمة."
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Model id"
+msgstr "معرّف النموذج"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Model options"
+msgstr "خيارات النموذج"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Model spend uses your provider keys."
+msgstr "تُحتسب تكلفة النماذج على مفاتيح المزوّدين الخاصة بك."
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Model updated."
+msgstr "تم تحديث النموذج."
+
+#: src/pages/LocalSettings.tsx
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/SettingsOverlay.tsx
+msgid "Models"
+msgstr "النماذج"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Models for the server owner’s default space."
+msgstr "نماذج المساحة الافتراضية لمالك الخادم."
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Models from server"
+msgstr "النماذج من الخادم"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Models list OK. {modelCount, plural, one {# model} other {# models}} available. Chat was not tested."
+msgstr "قائمة النماذج سليمة. {modelCount, plural, zero {لا توجد نماذج متاحة} one {نموذج واحد متاح} two {نموذجان متاحان} few {# نماذج متاحة} many {# نموذجًا متاحًا} other {# نموذج متاح}}. لم تُختبر المحادثة."
+
+#: src/lib/billing.ts
+msgid "month"
+msgstr "شهر"
+
+#: src/pages/RoutineSchedule.tsx
+msgid "Monthly"
+msgstr "شهريًا"
+
+#: src/pages/Shell.tsx
+msgid "More"
+msgstr "المزيد"
+
+#: src/components/ComputerMaintenanceActions.tsx
+msgid "More computer actions"
+msgstr "مزيد من إجراءات الحاسوب"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Move {full} down"
+msgstr "نقل {full} للأسفل"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Move {full} up"
+msgstr "نقل {full} للأعلى"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Move them to your shared memory."
+msgstr "انقلها إلى ذاكرتك المشتركة."
+
+#: src/pages/BotContextMenu.tsx
+msgid "Move to"
+msgstr "نقل إلى"
+
+#: src/components/call/CallCard.tsx
+msgid "Mute"
+msgstr "كتم"
+
+#: src/components/teach/SkillDraftCard.tsx
+#: src/pages/Auth.tsx
+#: src/pages/GroupPanel.tsx
+#: src/pages/RoutineEditor.tsx
+#: src/pages/shell/bot-credentials.tsx
+#: src/pages/shell/bot-panel.tsx
+#: src/pages/shell/dialogs.tsx
+msgid "Name"
+msgstr "الاسم"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Name this bot"
+msgstr "سمِّ هذا البوت"
+
+#: src/pages/GroupPanel.tsx
+msgid "Name this group"
+msgstr "سمِّ هذه المجموعة"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Name this routine"
+msgstr "سمِّ هذه المهمة المجدولة"
+
+#: src/lib/roster-status.ts
+msgid "Needs an answer"
+msgstr "بحاجة إلى إجابة"
+
+#: src/pages/ActivityList.tsx
+msgid "Needs input"
+msgstr "بحاجة إلى مدخلات"
+
+#: src/pages/ActivityList.tsx
+msgid "Needs takeover"
+msgstr "بحاجة إلى تولي التحكم"
+
+#: src/lib/roster-status.ts
+#: src/pages/Shell.tsx
+msgid "Needs you"
+msgstr "بحاجة إليك"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "New bot"
+msgstr "بوت جديد"
+
+#: src/pages/GroupPanel.tsx
+msgid "New group"
+msgstr "مجموعة جديدة"
+
+#: src/pages/ScratchpadSection.tsx
+msgid "New open-work item"
+msgstr "عنصر عمل مفتوح جديد"
+
+#: src/pages/AccountSettingsOverlay.tsx
+#: src/pages/Auth.tsx
+msgid "New password"
+msgstr "كلمة المرور الجديدة"
+
+#: src/pages/BotContextMenu.tsx
+#: src/pages/shell/dialogs.tsx
+msgid "New section"
+msgstr "قسم جديد"
+
+#: src/pages/KnowledgeSection.tsx
+msgid "New skill"
+msgstr "مهارة جديدة"
+
+#: src/pages/shell/dialogs.tsx
+msgid "New space"
+msgstr "مساحة جديدة"
+
+#: src/pages/Board.tsx
+msgid "New ticket"
+msgstr "تذكرة جديدة"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "No agent connections yet."
+msgstr "لا توجد اتصالات وكلاء بعد."
+
+#: src/pages/PluginsOverlay.tsx
+msgid "No apps match your search."
+msgstr "لا توجد تطبيقات تطابق بحثك."
+
+#: src/pages/Artifacts.tsx
+msgid "No artifacts found."
+msgstr "لم يُعثر على ملفات ناتجة."
+
+#: src/pages/PluginsOverlay.tsx
+msgid "no auth"
+msgstr "دون مصادقة"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "No authentication"
+msgstr "دون مصادقة"
+
+#: src/components/computer/TerminalApp.tsx
+msgid "No bot activity yet."
+msgstr "لا يوجد نشاط للبوتات بعد."
+
+#: src/pages/shell/command-palette.tsx
+msgid "No bots"
+msgstr "لا توجد بوتات"
+
+#: src/pages/shell/bot-picker.tsx
+msgid "No bots match"
+msgstr "لا توجد بوتات مطابقة"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "No chat apps linked yet."
+msgstr "لم يُربط أي تطبيق محادثة بعد."
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "No credentials saved for this bot."
+msgstr "لا توجد بيانات اعتماد محفوظة لهذا البوت."
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "No group chats yet."
+msgstr "لا توجد محادثات جماعية بعد."
+
+#: src/components/AskCard.tsx
+msgid "No longer active"
+msgstr "لم يعد نشطًا"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "No managed app catalog is configured on this deployment."
+msgstr "لم يُهيَّأ كتالوج تطبيقات مُدار على هذا النشر."
+
+#: src/pages/Artifacts.tsx
+msgid "No matching artifacts on this page."
+msgstr "لا توجد ملفات ناتجة مطابقة في هذه الصفحة."
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "No matching models"
+msgstr "لا توجد نماذج مطابقة"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "No MCP or API tool sources installed yet."
+msgstr "لم تُثبَّت أي مصادر أدوات MCP أو API بعد."
+
+#: src/pages/McpServersOverlay.tsx
+msgid "No MCP servers yet."
+msgstr "لا توجد خوادم MCP بعد."
+
+#: src/pages/PeerMessagesOverlay.tsx
+msgid "No messages with {peerBotName} yet."
+msgstr "لا توجد رسائل مع {peerBotName} بعد."
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "No model catalog is available."
+msgstr "لا يتوفر كتالوج نماذج."
+
+#: src/lib/model-connection-preflight.ts
+msgid "No models listed."
+msgstr "لا توجد نماذج مدرجة."
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "No providers found."
+msgstr "لم يُعثر على مزوّدين."
+
+#: src/components/integrations/IntegrationSetup.tsx
+msgid "No remote MCP servers found"
+msgstr "لم يُعثر على خوادم MCP بعيدة"
+
+#: src/pages/PluginsOverlay.tsx
+#: src/pages/SpaceSearch.tsx
+msgid "No results"
+msgstr "لا توجد نتائج"
+
+#: src/pages/ActivityList.tsx
+msgid "No runs match these filters."
+msgstr "لا توجد عمليات تشغيل تطابق عوامل التصفية هذه."
+
+#: src/pages/RoutineRunHistory.tsx
+msgid "No runs yet"
+msgstr "لا توجد عمليات تشغيل بعد"
+
+#: src/pages/KnowledgeSection.tsx
+msgid "No skills yet"
+msgstr "لا توجد مهارات بعد"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "No team conversations yet."
+msgstr "لا توجد محادثات فريق بعد."
+
+#: src/pages/Board.tsx
+msgid "No tickets yet"
+msgstr "لا توجد تذاكر بعد"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "No tools available."
+msgstr "لا توجد أدوات متاحة."
+
+#: src/pages/RoutineEditor.tsx
+msgid "No trigger"
+msgstr "بلا مُشغِّل"
+
+#: src/pages/ScratchpadSection.tsx
+msgid "None yet"
+msgstr "لا شيء بعد"
+
+#: src/lib/ticket-priority.ts
+msgid "Normal"
+msgstr "عادية"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Not connected"
+msgstr "غير متصل"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Not in the plugin catalog"
+msgstr "غير موجود في كتالوج الإضافات"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Not now"
+msgstr "ليس الآن"
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Nothing is still running"
+msgstr "لا شيء قيد التشغيل"
+
+#: src/pages/KnowledgeSection.tsx
+msgid "Nothing remembered yet"
+msgstr "لا شيء في الذاكرة بعد"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Notifications"
+msgstr "الإشعارات"
+
+#: src/pages/ActivityList.tsx
+msgid "Now"
+msgstr "الآن"
+
+#. placeholder {0}: selected.label
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Now using {0}."
+msgstr "يُستخدم الآن {0}."
+
+#: src/pages/McpOAuthCallback.tsx
+msgid "OAuth authorization was cancelled."
+msgstr "أُلغي تفويض OAuth."
+
+#: src/pages/McpServersOverlay.tsx
+msgid "OAuth connected"
+msgstr "تم الاتصال عبر OAuth"
+
+#: src/pages/McpOAuthCallback.tsx
+msgid "OAuth connection failed"
+msgstr "فشل الاتصال عبر OAuth"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "OAuth expired"
+msgstr "انتهت صلاحية OAuth"
+
+#. placeholder {0}: call.botName
+#: src/components/call/CallCard.tsx
+msgid "On a call with {0}"
+msgstr "في مكالمة مع {0}"
+
+#: src/pages/RoutineEditor.tsx
+msgid "On a schedule"
+msgstr "وفق جدول"
+
+#. placeholder {0}: preset.time
+#: src/pages/RoutineSchedule.tsx
+msgid "on the 1st at {0}"
+msgstr "في اليوم الأول الساعة {0}"
+
+#: src/pages/Shell.tsx
+msgid "Only empty spaces can be deleted. Delete its bots and groups first."
+msgstr "لا يمكن حذف إلا المساحات الفارغة. احذف البوتات والمجموعات التي فيها أولًا."
+
+#: src/components/markdown-link-prompt.tsx
+#: src/pages/ScratchpadSection.tsx
+#: src/pages/Shell.tsx
+msgid "Open"
+msgstr "فتح"
+
+#. placeholder {0}: group.title
+#: src/pages/Shell.tsx
+msgid "Open {0}"
+msgstr "فتح {0}"
+
+#. placeholder {0}: oauth.verificationUri.replace(/^https:\/\//, "")
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Open <0>{0}</0> and enter this code:"
+msgstr "افتح <0>{0}</0> وأدخل هذا الرمز:"
+
+#. placeholder {0}: new URL(oauth.verificationUri).hostname
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Open <0>{0}</0> to finish signing in."
+msgstr "افتح <0>{0}</0> لإكمال تسجيل الدخول."
+
+#: src/components/ComputersUnavailableHint.tsx
+msgid "Open computer settings"
+msgstr "فتح إعدادات الحاسوب"
+
+#: src/components/markdown-link-prompt.tsx
+msgid "Open external link?"
+msgstr "فتح رابط خارجي؟"
+
+#: src/pages/Shell.tsx
+msgid "Open in full window"
+msgstr "فتح في نافذة كاملة"
+
+#: src/pages/Shell.tsx
+msgid "Open navigation"
+msgstr "فتح قائمة التنقل"
+
+#: src/components/computer/TerminalApp.tsx
+msgid "Open shell"
+msgstr "فتح الطرفية"
+
+#: src/pages/ScratchpadSection.tsx
+msgid "Open work"
+msgstr "الأعمال المفتوحة"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "OpenAI-compatible server URL"
+msgstr "عنوان URL لخادم متوافق مع OpenAI"
+
+#: src/components/computer/TerminalApp.tsx
+msgid "Opened {path}"
+msgstr "تم فتح {path}"
+
+#: src/pages/Shell.tsx
+msgid "Opened its thread."
+msgstr "تم فتح محادثته."
+
+#: src/pages/Onboarding.tsx
+msgid "Opening chat…"
+msgstr "جارٍ فتح المحادثة…"
+
+#: src/App.tsx
+msgid "Opening your Space…"
+msgstr "جارٍ فتح مساحتك…"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Optional"
+msgstr "اختياري"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Optional header value"
+msgstr "قيمة الترويسة (اختيارية)"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Or connect an API key"
+msgstr "أو اربط مفتاح API"
+
+#: src/pages/Onboarding.tsx
+msgid "Or paste an API key"
+msgstr "أو الصق مفتاح API"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Organic"
+msgstr "طبيعي"
+
+#: src/pages/memory-providers/SupermemorySettingsForm.tsx
+msgid "Organization API key"
+msgstr "مفتاح API للمؤسسة"
+
+#: src/pages/shell/chat-context.tsx
+msgid "Original message unavailable"
+msgstr "الرسالة الأصلية غير متاحة"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Other model…"
+msgstr "نموذج آخر…"
+
+#: src/pages/Board.tsx
+msgid "Owner"
+msgstr "المسؤول"
+
+#: src/pages/RoutineEditor.tsx
+msgid "PagerDuty incident"
+msgstr "حادثة PagerDuty"
+
+#: src/pages/ScratchpadSection.tsx
+msgid "Park"
+msgstr "تأجيل"
+
+#: src/components/AskCard.tsx
+#: src/pages/AccountSettingsOverlay.tsx
+#: src/pages/Auth.tsx
+#: src/pages/shell/bot-credentials.tsx
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: src/pages/Auth.tsx
+msgid "Password recovery is not configured for this server"
+msgstr "استعادة كلمة المرور غير مهيّأة على هذا الخادم"
+
+#: src/pages/AccountSettingsOverlay.tsx
+#: src/pages/Auth.tsx
+msgid "Password updated"
+msgstr "تم تحديث كلمة المرور"
+
+#: src/pages/AccountSettingsOverlay.tsx
+#: src/pages/Auth.tsx
+msgid "Passwords do not match"
+msgstr "كلمتا المرور غير متطابقتين"
+
+#: src/pages/BillingSettingsPanel.tsx
+msgid "Past due"
+msgstr "متأخر السداد"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Paste a replacement key"
+msgstr "الصق مفتاحًا بديلًا"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Paste the OpenAI-compatible address from your server. Rakazo adds /v1 if needed."
+msgstr "الصق العنوان المتوافق مع OpenAI من خادمك. يضيف Rakazo المسار /v1 عند الحاجة."
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Paste your API key"
+msgstr "الصق مفتاح API الخاص بك"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Paste your API key, then test again."
+msgstr "الصق مفتاح API الخاص بك، ثم أعد الاختبار."
+
+#: src/pages/RoutineEditor.tsx
+msgid "Paused"
+msgstr "موقوفة مؤقتًا"
+
+#: src/pages/Shell.tsx
+#: src/pages/shell/chat-context.tsx
+msgid "Photo"
+msgstr "صورة"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Pick a model from the catalog."
+msgstr "اختر نموذجًا من الكتالوج."
+
+#: src/lib/model-connection-preflight.ts
+msgid "Pick a model from the list or enter a model id served by this endpoint."
+msgstr "اختر نموذجًا من القائمة أو أدخل معرّف نموذج تقدّمه نقطة الاتصال هذه."
+
+#: src/pages/BotContextMenu.tsx
+msgid "Pin"
+msgstr "تثبيت"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Playing…"
+msgstr "جارٍ التشغيل…"
+
+#: src/pages/KnowledgeSection.tsx
+msgid "Plugin"
+msgstr "إضافة"
+
+#: src/pages/RoutineEditor.tsx
+msgid "POST to"
+msgstr "إرسال POST إلى"
+
+#. placeholder {0}: props.name
+#: src/components/ArtifactFileCard.tsx
+msgid "Preview {0}"
+msgstr "معاينة {0}"
+
+#: src/pages/Artifacts.tsx
+msgid "Preview isn't available for this file type — download it to view it."
+msgstr "المعاينة غير متاحة لهذا النوع من الملفات — نزّله لعرضه."
+
+#: src/pages/Board.tsx
+msgid "Priority"
+msgstr "الأولوية"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Private"
+msgstr "خاص"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Private workspace with its own bots and groups."
+msgstr "مساحة عمل خاصة ببوتاتها ومجموعاتها."
+
+#: src/components/integrations/IntegrationSetup.tsx
+msgid "Project ID"
+msgstr "معرّف المشروع"
+
+#: src/components/teach/TeachRecordingChrome.tsx
+msgid "Protected input"
+msgstr "إدخال محمي"
+
+#: src/pages/MemorySettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Provider"
+msgstr "المزوّد"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Providers"
+msgstr "المزوّدون"
+
+#: src/components/CloudAgentCard.tsx
+msgid "Pull request"
+msgstr "طلب سحب"
+
+#: src/pages/ActivityList.tsx
+msgid "Queued"
+msgstr "في قائمة الانتظار"
+
+#: src/pages/Shell.tsx
+msgid "Quote"
+msgstr "اقتباس"
+
+#: src/pages/Shell.tsx
+msgid "React"
+msgstr "تفاعل"
+
+#: src/pages/Shell.tsx
+msgid "Reactions"
+msgstr "التفاعلات"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Read replies aloud"
+msgstr "قراءة الردود بصوت عالٍ"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Reasoning effort"
+msgstr "مستوى التفكير"
+
+#: src/pages/memory-providers/SerenitySettingsForm.tsx
+msgid "Recall and write"
+msgstr "الاسترجاع والكتابة"
+
+#: src/pages/memory-providers/SerenitySettingsForm.tsx
+msgid "Recall only"
+msgstr "الاسترجاع فقط"
+
+#: src/pages/ActivityList.tsx
+msgid "Recent"
+msgstr "الأحدث"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Reconnect OAuth"
+msgstr "إعادة الاتصال عبر OAuth"
+
+#: src/App.tsx
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Reconnecting"
+msgstr "جارٍ إعادة الاتصال"
+
+#: src/components/teach/TeachComputerOverlay.tsx
+msgid "Recording may have started, but the view could not refresh"
+msgstr "ربما بدأ التسجيل، لكن تعذّر تحديث العرض"
+
+#: src/components/teach/TeachComputerOverlay.tsx
+msgid "Recording started. Refresh the view to continue."
+msgstr "بدأ التسجيل. حدّث العرض للمتابعة."
+
+#. placeholder {0}: recording.goal
+#: src/components/teach/TeachRecordingChrome.tsx
+msgid "Recording: {0}"
+msgstr "التسجيل: {0}"
+
+#: src/components/ComputerMaintenanceActions.tsx
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Recover computer"
+msgstr "استرداد الحاسوب"
+
+#: src/components/ComputerMaintenanceActions.tsx
+msgid "Recover computer?"
+msgstr "استرداد الحاسوب؟"
+
+#. placeholder {0}: update.name
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Recovering {0}’s Computer"
+msgstr "جارٍ استرداد حاسوب {0}"
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Recovering Team Computer"
+msgstr "جارٍ استرداد حاسوب الفريق"
+
+#: src/components/ComputerMaintenanceActions.tsx
+msgid "Recovering…"
+msgstr "جارٍ الاسترداد…"
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Recovery failed"
+msgstr "فشل الاسترداد"
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Recovery is unavailable until the previous operation has stopped."
+msgstr "الاسترداد غير متاح حتى تتوقف العملية السابقة."
+
+#: src/components/ComputerMaintenanceActions.tsx
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Recovery restores the last saved workspace. Unsaved work may be lost."
+msgstr "يستعيد الاسترداد آخر مساحة عمل محفوظة. قد تُفقد الأعمال غير المحفوظة."
+
+#: src/components/ComputerMaintenanceActions.tsx
+msgid "Recreate a computer that is not working."
+msgstr "إعادة إنشاء حاسوب لا يعمل."
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Recreating the computer"
+msgstr "جارٍ إعادة إنشاء الحاسوب"
+
+#: src/App.tsx
+#: src/components/ErrorBoundary.tsx
+#: src/pages/RoutineRunHistory.tsx
+msgid "Refresh"
+msgstr "تحديث"
+
+#: src/components/teach/TeachComputerOverlay.tsx
+msgid "Refresh view"
+msgstr "تحديث العرض"
+
+#: src/components/teach/TeachComputerOverlay.tsx
+msgid "Refreshing…"
+msgstr "جارٍ التحديث…"
+
+#: src/lib/user-error.ts
+msgid "Registration is closed"
+msgstr "التسجيل مغلق"
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Release computer"
+msgstr "تحرير الحاسوب"
+
+#: src/pages/Shell.tsx
+msgid "Release control"
+msgstr "إعادة التحكم"
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Release interrupted computer?"
+msgstr "تحرير الحاسوب المتوقف؟"
+
+#: src/components/ApprovalRulesSettings.tsx
+#: src/pages/ModelBackupsSettings.tsx
+#: src/pages/PluginsOverlay.tsx
+#: src/pages/ScratchpadSection.tsx
+#: src/pages/shell/bot-credentials.tsx
+msgid "Remove"
+msgstr "إزالة"
+
+#. placeholder {0}: attachment.file.name
+#: src/pages/Shell.tsx
+msgid "Remove {0}"
+msgstr "إزالة {0}"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Remove {full}"
+msgstr "إزالة {full}"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Remove {secretName}? This bot will no longer be able to use it."
+msgstr "إزالة {secretName}؟ لن يتمكن هذا البوت من استخدامه بعد الآن."
+
+#: src/pages/RoutineEditor.tsx
+msgid "Remove Git event"
+msgstr "إزالة حدث Git"
+
+#. placeholder {0}: mention.name
+#: src/pages/Shell.tsx
+msgid "Remove mention {0}"
+msgstr "إزالة الإشارة إلى {0}"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Remove message trigger"
+msgstr "إزالة مُشغِّل الرسائل"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Remove schedule"
+msgstr "إزالة الجدول"
+
+#. placeholder {0}: selectedSkill.name
+#: src/pages/Shell.tsx
+msgid "Remove skill {0}"
+msgstr "إزالة المهارة {0}"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Remove webhook"
+msgstr "إزالة Webhook"
+
+#: src/pages/Shell.tsx
+msgid "Removed with chat, computer, and memory."
+msgstr "تمت الإزالة مع المحادثة والحاسوب والذاكرة."
+
+#: src/pages/ScratchpadSection.tsx
+msgid "Removed, but list refresh failed"
+msgstr "تمت الإزالة، لكن تعذّر تحديث القائمة"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Removing…"
+msgstr "جارٍ الإزالة…"
+
+#: src/pages/BotContextMenu.tsx
+#: src/pages/Shell.tsx
+#: src/pages/shell/dialogs.tsx
+msgid "Rename section"
+msgstr "إعادة تسمية القسم"
+
+#: src/pages/Shell.tsx
+#: src/pages/shell/dialogs.tsx
+msgid "Rename space"
+msgstr "إعادة تسمية المساحة"
+
+#: src/pages/BillingSettingsPanel.tsx
+msgid "Renews {day}"
+msgstr "يتجدد في {day}"
+
+#: src/pages/ScratchpadSection.tsx
+msgid "Reopen"
+msgstr "إعادة فتح"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Replace API key"
+msgstr "استبدال مفتاح API"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Replace key"
+msgstr "استبدال المفتاح"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Replace value"
+msgstr "استبدال القيمة"
+
+#: src/pages/Shell.tsx
+msgid "Reply"
+msgstr "رد"
+
+#: src/pages/Shell.tsx
+msgid "Reply cancelled"
+msgstr "أُلغي الرد"
+
+#. placeholder {0}: replyNameRef.current
+#: src/pages/Shell.tsx
+msgid "Replying to {0}"
+msgstr "الرد على {0}"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Research & writing"
+msgstr "البحث والكتابة"
+
+#: src/components/ComputerMaintenanceActions.tsx
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Reset"
+msgstr "إعادة تعيين"
+
+#: src/pages/ActivityList.tsx
+msgid "Reset all"
+msgstr "إعادة تعيين الكل"
+
+#: src/components/ComputerMaintenanceActions.tsx
+msgid "Reset computer"
+msgstr "إعادة تعيين الحاسوب"
+
+#: src/components/ComputerMaintenanceActions.tsx
+msgid "Reset computer?"
+msgstr "إعادة تعيين الحاسوب؟"
+
+#: src/pages/Auth.tsx
+msgid "Reset password"
+msgstr "إعادة تعيين كلمة المرور"
+
+#: src/pages/Auth.tsx
+msgid "Reset your password"
+msgstr "أعد تعيين كلمة المرور"
+
+#: src/components/ComputerMaintenanceActions.tsx
+msgid "Resetting…"
+msgstr "جارٍ إعادة التعيين…"
+
+#: src/pages/ResizableSidePanel.tsx
+msgid "Resize panel"
+msgstr "تغيير حجم اللوحة"
+
+#: src/components/DesktopUpdates.tsx
+msgid "Restart to update"
+msgstr "أعد التشغيل للتحديث"
+
+#: src/pages/Shell.tsx
+msgid "Restore"
+msgstr "استعادة"
+
+#: src/components/ComputerMaintenanceActions.tsx
+msgid "Restore the last saved workspace."
+msgstr "استعادة آخر نسخة محفوظة من مساحة العمل."
+
+#: src/components/ComputerMaintenanceActions.tsx
+msgid "Restore the last saved workspace. Unsaved work on the computer is lost."
+msgstr "استعادة آخر نسخة محفوظة من مساحة العمل. سيُفقد العمل غير المحفوظ على الحاسوب."
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Restoring your workspace"
+msgstr "جارٍ استعادة مساحة العمل"
+
+#: src/components/AccountAccess.tsx
+#: src/pages/Auth.tsx
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Retry"
+msgstr "إعادة المحاولة"
+
+#: src/App.tsx
+#: src/pages/PeerMessagesOverlay.tsx
+msgid "Retry now"
+msgstr "أعد المحاولة الآن"
+
+#: src/pages/Shell.tsx
+msgid "Retry screen"
+msgstr "إعادة تحميل الشاشة"
+
+#: src/pages/McpOAuthCallback.tsx
+msgid "Return to Rakazo"
+msgstr "العودة إلى Rakazo"
+
+#. placeholder {0}: doc.revision
+#: src/pages/KnowledgeSection.tsx
+msgid "rev {0}"
+msgstr "الإصدار {0}"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Review provider settings and test again."
+msgstr "راجع إعدادات المزوّد ثم اختبر مجددًا."
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Revoke"
+msgstr "إبطال"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Robot"
+msgstr "روبوت"
+
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Room guidance"
+msgstr "إرشادات الغرفة"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Rotate key"
+msgstr "تجديد المفتاح"
+
+#: src/pages/RoutineEditor.tsx
+#: src/pages/Shell.tsx
+msgid "Routine"
+msgstr "مهمة مجدولة"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Routines"
+msgstr "المهام المجدولة"
+
+#: src/pages/Paywall.tsx
+msgid "Routines that run while you're away"
+msgstr "مهام مجدولة تعمل أثناء غيابك"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Run at"
+msgstr "وقت التشغيل"
+
+#: src/pages/RoutineRunHistory.tsx
+msgid "Run history"
+msgstr "سجل التشغيل"
+
+#: src/pages/Shell.tsx
+msgid "Run time must be in the future."
+msgstr "يجب أن يكون وقت التشغيل في المستقبل."
+
+#: src/components/CloudAgentCard.tsx
+msgid "running"
+msgstr "قيد التشغيل"
+
+#: src/pages/ActivityList.tsx
+msgid "Running"
+msgstr "قيد التشغيل"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Running · Stop"
+msgstr "قيد التشغيل · إيقاف"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Running…"
+msgstr "جارٍ التشغيل…"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Runs when this bot receives a verified message from this provider."
+msgstr "يعمل عندما يتلقى هذا البوت رسالة موثّقة من هذا المزوّد."
+
+#: src/components/AskCard.tsx
+#: src/components/teach/SkillDraftCard.tsx
+#: src/pages/Board.tsx
+#: src/pages/ExternalConversationSettings.tsx
+#: src/pages/GroupPanel.tsx
+#: src/pages/KnowledgeSection.tsx
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/RoutineEditor.tsx
+#: src/pages/shell/bot-panel.tsx
+#: src/pages/shell/dialogs.tsx
+msgid "Save"
+msgstr "حفظ"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Save backups"
+msgstr "حفظ النماذج الاحتياطية"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Save credential"
+msgstr "حفظ بيانات الاعتماد"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Save limits"
+msgstr "حفظ الحدود"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Save new value"
+msgstr "حفظ القيمة الجديدة"
+
+#: src/components/ComputerMaintenanceActions.tsx
+msgid "Save the workspace and install current software."
+msgstr "حفظ مساحة العمل وتثبيت أحدث البرامج."
+
+#: src/components/AskCard.tsx
+#: src/components/teach/SkillDraftCard.tsx
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Saved"
+msgstr "تم الحفظ"
+
+#: src/pages/ScratchpadSection.tsx
+msgid "Saved, but list refresh failed"
+msgstr "تم الحفظ، لكن تعذّر تحديث القائمة"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Saved."
+msgstr "تم الحفظ."
+
+#: src/pages/RoutineEditor.tsx
+msgid "Saved. Rotate to reveal."
+msgstr "تم الحفظ. جدّد المفتاح لعرضه."
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Saving your workspace"
+msgstr "جارٍ حفظ مساحة العمل"
+
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Saving..."
+msgstr "جارٍ الحفظ..."
+
+#: src/components/AskCard.tsx
+#: src/components/teach/SkillDraftCard.tsx
+#: src/pages/GroupPanel.tsx
+#: src/pages/ModelBackupsSettings.tsx
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/RoutineEditor.tsx
+#: src/pages/shell/bot-credentials.tsx
+#: src/pages/shell/dialogs.tsx
+msgid "Saving…"
+msgstr "جارٍ الحفظ…"
+
+#: src/lib/call-session.ts
+msgid "Say yes or no, or answer in a sentence."
+msgstr "قل نعم أو لا، أو أجب بجملة."
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/PluginsOverlay.tsx
+#: src/pages/Shell.tsx
+#: src/pages/shell/bot-picker.tsx
+#: src/pages/shell/command-palette.tsx
+msgid "Search"
+msgstr "بحث"
+
+#: src/pages/ActivityList.tsx
+msgid "Search activity"
+msgstr "البحث في النشاط"
+
+#: src/components/integrations/IntegrationSetup.tsx
+#: src/pages/PluginsOverlay.tsx
+msgid "Search apps"
+msgstr "البحث في التطبيقات"
+
+#: src/pages/Artifacts.tsx
+msgid "Search artifacts…"
+msgstr "البحث في الملفات الناتجة…"
+
+#: src/pages/shell/command-palette.tsx
+msgid "Search bots and switch conversations"
+msgstr "ابحث عن البوتات وانتقل بين المحادثات"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Search by domain"
+msgstr "البحث حسب النطاق"
+
+#: src/components/integrations/IntegrationSetup.tsx
+msgid "Search integrations.sh"
+msgstr "البحث في integrations.sh"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Search models"
+msgstr "البحث في النماذج"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Search providers"
+msgstr "البحث في المزوّدين"
+
+#: src/pages/ActivityList.tsx
+msgid "Search runs"
+msgstr "البحث في عمليات التشغيل"
+
+#. placeholder {0}: filters.query.trim()
+#: src/pages/ActivityList.tsx
+msgid "Search: {0}"
+msgstr "بحث: {0}"
+
+#: src/pages/PluginsOverlay.tsx
+#: src/pages/SpaceSearch.tsx
+msgid "Searching…"
+msgstr "جارٍ البحث…"
+
+#: src/pages/Shell.tsx
+msgid "Select a bot"
+msgstr "اختر بوتًا"
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Select a connected model"
+msgstr "اختر نموذجًا متصلًا"
+
+#: src/pages/Shell.tsx
+msgid "Send"
+msgstr "إرسال"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Send <0>{linkCode}</0> to the line from your chat app within 10 minutes. You'll get a confirmation reply once linked."
+msgstr "أرسل <0>{linkCode}</0> إلى الرقم من تطبيق المحادثة خلال 10 دقائق. ستصلك رسالة تأكيد بعد الربط."
+
+#: src/components/AskCard.tsx
+msgid "Send answer"
+msgstr "إرسال الإجابة"
+
+#: src/components/AccountAccess.tsx
+msgid "Send deletion code"
+msgstr "إرسال رمز الحذف"
+
+#: src/components/AskCard.tsx
+msgid "Send it"
+msgstr "أرسلها"
+
+#: src/pages/Auth.tsx
+msgid "Send reset link"
+msgstr "إرسال رابط إعادة التعيين"
+
+#: src/components/AskCard.tsx
+msgid "Sending…"
+msgstr "جارٍ الإرسال…"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Sentry alert"
+msgstr "تنبيه Sentry"
+
+#: src/pages/memory-providers/SerenitySettingsForm.tsx
+msgid "Serenity endpoint is required."
+msgstr "نقطة نهاية Serenity مطلوبة."
+
+#: src/components/integrations/IntegrationSetup.tsx
+#: src/pages/AccountSettingsOverlay.tsx
+#: src/pages/LocalSettings.tsx
+msgid "Server integrations"
+msgstr "تكاملات الخادم"
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Server name"
+msgstr "اسم الخادم"
+
+#: src/components/integrations/IntegrationSetup.tsx
+#: src/pages/McpServersOverlay.tsx
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Server URL"
+msgstr "عنوان URL للخادم"
+
+#: src/components/call/CallCard.tsx
+#: src/pages/MessagingSettingsOverlay.tsx
+#: src/pages/SettingsOverlay.tsx
+#: src/pages/Shell.tsx
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: src/pages/Shell.tsx
+msgid "Settings: General"
+msgstr "الإعدادات: عام"
+
+#: src/pages/Shell.tsx
+msgid "Settings: Usage"
+msgstr "الإعدادات: الاستخدام"
+
+#: src/components/integrations/IntegrationSetup.tsx
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Setup help"
+msgstr "مساعدة الإعداد"
+
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Shape"
+msgstr "الشكل"
+
+#: src/pages/MemorySettingsOverlay.tsx
+#: src/pages/shell/bot-panel.tsx
+msgid "Shared"
+msgstr "مشترك"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Shared chat with 2-6 bots. They all reply in the same thread."
+msgstr "محادثة مشتركة مع 2-6 بوتات، وجميعها تردّ في المحادثة نفسها."
+
+#: src/pages/KnowledgeSection.tsx
+msgid "Shared documents"
+msgstr "المستندات المشتركة"
+
+#: src/pages/KnowledgeSection.tsx
+msgid "Shared skills"
+msgstr "المهارات المشتركة"
+
+#: src/components/computer/TerminalApp.tsx
+msgid "Shell"
+msgstr "سطر الأوامر"
+
+#: src/pages/Shell.tsx
+msgid "Show bots"
+msgstr "إظهار البوتات"
+
+#: src/pages/Shell.tsx
+msgid "Show computer"
+msgstr "إظهار الحاسوب"
+
+#: src/pages/Artifacts.tsx
+msgid "Show list"
+msgstr "إظهار القائمة"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Show more"
+msgstr "عرض المزيد"
+
+#: src/pages/Auth.tsx
+msgid "Show password"
+msgstr "إظهار كلمة المرور"
+
+#: src/pages/Shell.tsx
+msgid "Show settings"
+msgstr "إظهار الإعدادات"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Show tool activity"
+msgstr "إظهار نشاط الأدوات"
+
+#: src/components/call/VoiceChatCard.tsx
+msgid "Show transcript"
+msgstr "إظهار النص المكتوب"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Sidebar density"
+msgstr "كثافة الشريط الجانبي"
+
+#: src/lib/localized-provider-hint.ts
+#: src/pages/Auth.tsx
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+#: src/pages/Welcome.tsx
+msgid "Sign in"
+msgstr "تسجيل الدخول"
+
+#: src/components/AccountAccess.tsx
+#: src/lib/user-error.ts
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Sign in again"
+msgstr "سجّل الدخول مجددًا"
+
+#: src/pages/Auth.tsx
+msgid "Sign in to Rakazo"
+msgstr "تسجيل الدخول إلى Rakazo"
+
+#: src/lib/user-error.ts
+msgid "Sign in to your existing account to link SSO"
+msgstr "سجّل الدخول إلى حسابك الحالي لربط SSO"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Sign in with the subscription, or test the API key instead."
+msgstr "سجّل الدخول بالاشتراك، أو اختبر مفتاح API بدلًا من ذلك."
+
+#: src/pages/Auth.tsx
+#: src/pages/Welcome.tsx
+msgid "Sign up"
+msgstr "إنشاء حساب"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Site"
+msgstr "الموقع"
+
+#. placeholder {0}: skill.name
+#: src/pages/Shell.tsx
+msgid "Skill {0}"
+msgstr "المهارة {0}"
+
+#: src/components/integrations/IntegrationSetup.tsx
+#: src/pages/Shell.tsx
+msgid "Skip"
+msgstr "تخطي"
+
+#: src/lib/localized-provider-hint.ts
+msgid "Skip or deploy key"
+msgstr "التخطي أو مفتاح النشر"
+
+#. placeholder {0}: skipped.join(", ")
+#: src/pages/Shell.tsx
+msgid "Skipped {0}"
+msgstr "تم تخطي {0}"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Slack message"
+msgstr "رسالة Slack"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Slack not enabled"
+msgstr "Slack غير مفعّل"
+
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Software update"
+msgstr "تحديث البرامج"
+
+#: src/App.tsx
+#: src/lib/user-error.ts
+msgid "Something went wrong. Try again."
+msgstr "حدث خطأ ما. حاول مجددًا."
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Space changed. Reopen Models to load its backup list."
+msgstr "تغيّرت المساحة. أعد فتح النماذج لتحميل قائمة النماذج الاحتياطية الخاصة بها."
+
+#: src/pages/ModelBackupsSettings.tsx
+msgid "Space changed. Reopen Models to save its backup list."
+msgstr "تغيّرت المساحة. أعد فتح النماذج لحفظ قائمة النماذج الاحتياطية الخاصة بها."
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Space default"
+msgstr "الافتراضي للمساحة"
+
+#: src/pages/shell/dialogs.tsx
+msgid "Spaces"
+msgstr "المساحات"
+
+#: src/pages/Shell.tsx
+msgid "Speak"
+msgstr "نطق"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Speak + transcribe"
+msgstr "النطق والتفريغ النصي"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Speak only"
+msgstr "النطق فقط"
+
+#: src/pages/Shell.tsx
+msgid "Speak this reply"
+msgstr "قراءة هذا الرد بصوت"
+
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Speech model"
+msgstr "نموذج الكلام"
+
+#: src/lib/user-error.ts
+msgid "SSO is temporarily unavailable. Try again."
+msgstr "SSO غير متاح مؤقتًا. حاول مجددًا."
+
+#: src/pages/Paywall.tsx
+msgid "Start {trialDays}-day free trial"
+msgstr "ابدأ تجربة مجانية لمدة {trialDays} يومًا"
+
+#: src/components/teach/TeachComputerOverlay.tsx
+msgid "Start recording"
+msgstr "بدء التسجيل"
+
+#: src/pages/ActivityList.tsx
+msgid "Starting"
+msgstr "جارٍ البدء"
+
+#: src/components/teach/TeachComputerOverlay.tsx
+#: src/lib/roster-status.ts
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Starting…"
+msgstr "جارٍ البدء…"
+
+#: src/pages/ActivityList.tsx
+#: src/pages/Board.tsx
+msgid "Status"
+msgstr "الحالة"
+
+#: src/components/teach/SkillDraftCard.tsx
+msgid "Steps"
+msgstr "الخطوات"
+
+#: src/pages/Shell.tsx
+msgid "Stop"
+msgstr "إيقاف"
+
+#: src/pages/Shell.tsx
+msgid "Stop speaking"
+msgstr "إيقاف القراءة"
+
+#: src/components/teach/TeachRecordingChrome.tsx
+msgid "Stop teaching"
+msgstr "إيقاف التعليم"
+
+#. js-lingui-explicit-id
+#: src/lib/browser-notifications.ts
+msgid "Stopped."
+msgstr "تم الإيقاف."
+
+#: src/pages/McpServersOverlay.tsx
+msgid "Stored encrypted"
+msgstr "مخزّن مشفّرًا"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Stored securely. Never shown here."
+msgstr "محفوظ بأمان ولا يُعرض هنا أبدًا."
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "Stream replies"
+msgstr "بث الردود أثناء كتابتها"
+
+#: src/pages/Shell.tsx
+msgid "subagent"
+msgstr "وكيل فرعي"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Submit"
+msgstr "إرسال"
+
+#: src/pages/Paywall.tsx
+msgid "Subscribe"
+msgstr "اشتراك"
+
+#: src/pages/Paywall.tsx
+msgid "Subscription required"
+msgstr "الاشتراك مطلوب"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Supports images"
+msgstr "يدعم الصور"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Supports thinking"
+msgstr "يدعم التفكير"
+
+#: src/pages/shell/command-palette.tsx
+msgid "Switch bot"
+msgstr "تبديل البوت"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Switching…"
+msgstr "جارٍ التبديل…"
+
+#: src/pages/AccountSettingsOverlay.tsx
+msgid "System"
+msgstr "النظام"
+
+#: src/pages/Shell.tsx
+msgid "Take control"
+msgstr "تولي التحكم"
+
+#: src/components/teach/TeachComputerOverlay.tsx
+msgid "Teach a task"
+msgstr "تعليم مهمة"
+
+#: src/pages/Shell.tsx
+msgid "Teaching in progress. Stop teaching before sending a new message."
+msgstr "التعليم قيد التنفيذ. أوقف التعليم قبل إرسال رسالة جديدة."
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Team"
+msgstr "الفريق"
+
+#: src/pages/Shell.tsx
+msgid "Team Computer"
+msgstr "حاسوب الفريق"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Team conversations"
+msgstr "محادثات الفريق"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Teams message"
+msgstr "رسالة Teams"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Teams not enabled"
+msgstr "Teams غير مفعّل"
+
+#: src/components/computer/ComputerWorkspace.tsx
+msgid "Terminal"
+msgstr "الطرفية"
+
+#: src/components/teach/SkillDraftCard.tsx
+msgid "Test"
+msgstr "اختبار"
+
+#: src/components/ModelConnectionPreflightNotice.tsx
+msgid "Test API key"
+msgstr "اختبار مفتاح API"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Test run"
+msgstr "تشغيل تجريبي"
+
+#: src/components/ModelConnectionPreflightNotice.tsx
+msgid "Test sign-in"
+msgstr "اختبار تسجيل الدخول"
+
+#: src/components/ModelConnectionPreflightNotice.tsx
+msgid "Testing…"
+msgstr "جارٍ الاختبار…"
+
+#: src/components/SoftwareUpdateSection.tsx
+msgid "The API did not come back. Refresh this page."
+msgstr "لم يستجب الـ API. حدّث هذه الصفحة."
+
+#: src/lib/model-connection-preflight.ts
+msgid "The connection timed out."
+msgstr "انتهت مهلة الاتصال."
+
+#: src/lib/model-connection-preflight.ts
+msgid "The provider is rate-limiting requests."
+msgstr "المزوّد يحدّ من معدل الطلبات."
+
+#: src/pages/MemorySettingsOverlay.tsx
+msgid "The selected memory provider is not available in this build."
+msgstr "مزوّد الذاكرة المحدد غير متاح في هذا الإصدار."
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "These saved settings can't be read. Remove it and add it again."
+msgstr "تعذّرت قراءة هذه الإعدادات المحفوظة. احذفها ثم أضفها من جديد."
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+#: src/pages/RoutineEditor.tsx
+#: src/pages/shell/bot-panel.tsx
+msgid "Thinking"
+msgstr "التفكير"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Thinking: {activeThinkingLabel}"
+msgstr "التفكير: {activeThinkingLabel}"
+
+#: src/pages/Shell.tsx
+msgid "This bot runs on this computer, not a Linux desktop. Shell and files use your home folder."
+msgstr "يعمل هذا البوت على هذا الحاسوب، وليس على سطح مكتب Linux. تستخدم الطرفية والملفات مجلدك الرئيسي."
+
+#: src/pages/Artifacts.tsx
+msgid "This can't be undone."
+msgstr "لا يمكن التراجع عن هذا الإجراء."
+
+#: src/pages/shell/dialogs.tsx
+msgid "This cannot be undone."
+msgstr "لا يمكن التراجع عن هذا الإجراء."
+
+#: src/pages/PeerMessagesOverlay.tsx
+msgid "This chat is view-only"
+msgstr "هذه المحادثة للعرض فقط"
+
+#: src/pages/HostComputerPrompt.tsx
+msgid "this computer"
+msgstr "هذا الحاسوب"
+
+#. placeholder {0}: pendingDelete.versionCount
+#: src/pages/Artifacts.tsx
+msgid "This deletes all {0} versions of this artifact. This can't be undone."
+msgstr "سيؤدي هذا إلى حذف جميع إصدارات هذا الملف الناتج ({0}). لا يمكن التراجع عن هذا الإجراء."
+
+#: src/components/ArtifactFileCard.tsx
+msgid "This file is not valid UTF-8 text."
+msgstr "هذا الملف ليس نصًا صالحًا بترميز UTF-8."
+
+#: src/pages/HostComputerPrompt.tsx
+msgid "this Mac"
+msgstr "جهاز Mac هذا"
+
+#: src/pages/Artifacts.tsx
+msgid "This month"
+msgstr "هذا الشهر"
+
+#: src/components/AccountAccess.tsx
+msgid "This permanently deletes your account and data."
+msgstr "سيؤدي هذا إلى حذف حسابك وبياناتك نهائيًا."
+
+#: src/pages/shell/dialogs.tsx
+msgid "This permanently removes every message and stops current work. The chat remains available."
+msgstr "سيؤدي هذا إلى حذف جميع الرسائل نهائيًا وإيقاف العمل الجاري. ستبقى المحادثة متاحة."
+
+#: src/lib/model-connection-preflight.ts
+msgid "This provider cannot be tested without saving."
+msgstr "لا يمكن اختبار هذا المزوّد دون حفظه."
+
+#: src/lib/model-connection-preflight.ts
+msgid "This provider is not connected yet."
+msgstr "هذا المزوّد غير متصل بعد."
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "This removes the connection from every space."
+msgstr "سيؤدي هذا إلى إزالة الاتصال من جميع المساحات."
+
+#: src/pages/Auth.tsx
+msgid "This reset link is invalid or expired"
+msgstr "رابط إعادة التعيين هذا غير صالح أو منتهي الصلاحية"
+
+#: src/pages/shell/message-cards.tsx
+msgid "This server cannot be assigned without a bot."
+msgstr "لا يمكن تعيين هذا الخادم دون بوت."
+
+#: src/pages/McpServersOverlay.tsx
+msgid "This server did not request browser authorization."
+msgstr "لم يطلب هذا الخادم تفويضًا عبر المتصفح."
+
+#: src/pages/McpServersOverlay.tsx
+msgid "This server is already connected. Disconnect it first to authorize again."
+msgstr "هذا الخادم متصل بالفعل. افصله أولًا لإعادة التفويض."
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "This subscription sign-in is not available in Rakazo yet. Use a deployment credential or choose another provider."
+msgstr "تسجيل الدخول بالاشتراك هذا غير متاح في Rakazo بعد. استخدم بيانات اعتماد النشر أو اختر مزوّدًا آخر."
+
+#: src/pages/Artifacts.tsx
+msgid "This week"
+msgstr "هذا الأسبوع"
+
+#: src/pages/RoutineSchedule.tsx
+msgid "Time of day"
+msgstr "الوقت من اليوم"
+
+#: src/pages/Board.tsx
+#: src/pages/shell/bot-panel.tsx
+msgid "Title"
+msgstr "العنوان"
+
+#: src/pages/ActivityList.tsx
+msgid "To"
+msgstr "إلى"
+
+#. placeholder {0}: filters.dateRange.to
+#: src/pages/ActivityList.tsx
+msgid "To {0}"
+msgstr "إلى {0}"
+
+#: src/lib/ticket-status.ts
+msgid "To do"
+msgstr "قيد الانتظار"
+
+#: src/pages/shell/bot-picker.tsx
+msgid "To:"
+msgstr "إلى:"
+
+#: src/pages/Artifacts.tsx
+#: src/pages/shell/chat-context.tsx
+msgid "Today"
+msgstr "اليوم"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Tool sources"
+msgstr "مصادر الأدوات"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Tools"
+msgstr "الأدوات"
+
+#: src/components/call/CallCard.tsx
+msgid "Transcript"
+msgstr "النص المكتوب"
+
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Treat like a person"
+msgstr "التعامل كشخص"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Treg token"
+msgstr "رمز Treg"
+
+#: src/pages/BillingSettingsPanel.tsx
+msgid "Trial"
+msgstr "فترة تجريبية"
+
+#: src/pages/BillingSettingsPanel.tsx
+msgid "Trial ends {day}"
+msgstr "تنتهي الفترة التجريبية {day}"
+
+#: src/pages/ActivityList.tsx
+#: src/pages/Onboarding.tsx
+msgid "Try again"
+msgstr "إعادة المحاولة"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Try the test again."
+msgstr "أعد الاختبار."
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Type"
+msgstr "النوع"
+
+#: src/components/teach/TeachRecordingChrome.tsx
+msgid "Type without recording"
+msgstr "الكتابة دون تسجيل"
+
+#: src/components/AskCard.tsx
+msgid "Type your answer"
+msgstr "اكتب إجابتك"
+
+#: src/pages/BotContextMenu.tsx
+msgid "Unassigned"
+msgstr "غير معيّن"
+
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Unavailable"
+msgstr "غير متاح"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Uninstall"
+msgstr "إزالة"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "Unknown tool"
+msgstr "أداة غير معروفة"
+
+#: src/pages/MessagingSettingsOverlay.tsx
+msgid "Unlink"
+msgstr "إلغاء الربط"
+
+#: src/components/call/CallCard.tsx
+msgid "Unmute"
+msgstr "إلغاء الكتم"
+
+#: src/pages/BotContextMenu.tsx
+msgid "Unpin"
+msgstr "إلغاء التثبيت"
+
+#. placeholder {0}: pending.file.name
+#: src/pages/Shell.tsx
+msgid "Unsupported file type: {0}"
+msgstr "نوع ملف غير مدعوم: {0}"
+
+#: src/components/DesktopUpdates.tsx
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Up to date"
+msgstr "محدّث"
+
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Update"
+msgstr "تحديث"
+
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Update available"
+msgstr "يتوفر تحديث"
+
+#: src/components/ComputerMaintenanceActions.tsx
+msgid "Update computer"
+msgstr "تحديث الحاسوب"
+
+#: src/components/ComputerUpdateProgress.tsx
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Update failed"
+msgstr "فشل التحديث"
+
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Update finished with errors"
+msgstr "اكتمل التحديث مع وجود أخطاء"
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Update progress"
+msgstr "تقدّم التحديث"
+
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Updated"
+msgstr "تم التحديث"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Updated {updated}"
+msgstr "آخر تحديث {updated}"
+
+#: src/pages/SettingsOverlay.tsx
+msgid "Updates"
+msgstr "التحديثات"
+
+#. placeholder {0}: update.name
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Updating {0}’s Computer"
+msgstr "جارٍ تحديث حاسوب {0}"
+
+#: src/components/ComputerUpdateProgress.tsx
+msgid "Updating Team Computer"
+msgstr "جارٍ تحديث حاسوب الفريق"
+
+#: src/components/ComputerMaintenanceActions.tsx
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Updating…"
+msgstr "جارٍ التحديث…"
+
+#: src/components/computer/FilesApp.tsx
+#: src/pages/shell/avatar-studio-popover.tsx
+msgid "Upload"
+msgstr "رفع"
+
+#: src/lib/ticket-priority.ts
+msgid "Urgent"
+msgstr "عاجل"
+
+#: src/pages/AccountSettingsOverlay.tsx
+#: src/pages/SettingsOverlay.tsx
+#: src/pages/Shell.tsx
+msgid "Usage"
+msgstr "الاستخدام"
+
+#: src/pages/HostComputerPrompt.tsx
+msgid "Use {hostLabel}"
+msgstr "استخدام {hostLabel}"
+
+#: src/pages/ModelSettingsOverlay.tsx
+#: src/pages/Onboarding.tsx
+msgid "Use a found model"
+msgstr "استخدام نموذج مكتشَف"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Use Connect to verify the key."
+msgstr "استخدم «اتصال» للتحقق من المفتاح."
+
+#: src/pages/ExternalConversationSettings.tsx
+msgid "Use default guidance"
+msgstr "استخدام الإرشادات الافتراضية"
+
+#: src/components/teach/TeachRecordingChrome.tsx
+msgid "Use Protected input for passwords."
+msgstr "استخدم «الإدخال المحمي» لكلمات المرور."
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Use this model"
+msgstr "استخدام هذا النموذج"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Use your own key"
+msgstr "استخدام مفتاحك الخاص"
+
+#: src/components/AskCard.tsx
+#: src/pages/shell/bot-credentials.tsx
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: src/pages/ModelSettingsOverlay.tsx
+msgid "Uses this server's own {hostCredentialSource} credentials to access {selectedProviderName}."
+msgstr "يستخدم بيانات اعتماد {hostCredentialSource} الخاصة بهذا الخادم للوصول إلى {selectedProviderName}."
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Value"
+msgstr "القيمة"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Values are encrypted and never shown again."
+msgstr "تُشفَّر القيم ولن تُعرض مرة أخرى."
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Verify and add"
+msgstr "تحقق وأضف"
+
+#: src/pages/PluginsOverlay.tsx
+msgid "Verifying…"
+msgstr "جارٍ التحقق…"
+
+#: src/pages/Artifacts.tsx
+msgid "Version"
+msgstr "الإصدار"
+
+#: src/pages/RoutineRunHistory.tsx
+msgid "View chat"
+msgstr "عرض المحادثة"
+
+#: src/pages/SettingsOverlay.tsx
+#: src/pages/Shell.tsx
+#: src/pages/shell/bot-panel.tsx
+#: src/pages/VoiceSettingsOverlay.tsx
+msgid "Voice"
+msgstr "الصوت"
+
+#: src/components/call/VoiceChatCard.tsx
+msgid "Voice chat"
+msgstr "محادثة صوتية"
+
+#: src/lib/model-connection-preflight.ts
+msgid "Wait a moment and test again."
+msgstr "انتظر لحظة ثم أعد الاختبار."
+
+#: src/components/SoftwareUpdateSection.tsx
+msgid "Waiting for the API to come back…"
+msgstr "في انتظار عودة الـ API…"
+
+#: src/lib/roster-status.ts
+msgid "Waiting in line…"
+msgstr "في قائمة الانتظار…"
+
+#: src/pages/shell/message-cards.tsx
+msgid "Waiting…"
+msgstr "جارٍ الانتظار…"
+
+#: src/pages/Paywall.tsx
+msgid "Web, desktop and mobile apps"
+msgstr "تطبيقات الويب وسطح المكتب والجوال"
+
+#: src/pages/RoutineEditor.tsx
+msgid "Webhook"
+msgstr "Webhook"
+
+#: src/pages/shell/bot-credentials.tsx
+msgid "Website login"
+msgstr "تسجيل الدخول إلى موقع ويب"
+
+#: src/lib/billing.ts
+msgid "week"
+msgstr "أسبوع"
+
+#: src/pages/RoutineEditor.tsx
+#: src/pages/RoutineSchedule.tsx
+msgid "Weekdays"
+msgstr "أيام العمل"
+
+#: src/pages/shell/dialogs.tsx
+msgid "What about its memories?"
+msgstr "وماذا عن ذكرياته؟"
+
+#: src/pages/shell/message-cards.tsx
+msgid "What do you want me on first?"
+msgstr "بماذا تريدني أن أبدأ؟"
+
+#: src/components/teach/TeachComputerOverlay.tsx
+msgid "What result will you demonstrate?"
+msgstr "ما النتيجة التي ستعرضها؟"
+
+#: src/pages/RoutineEditor.tsx
+msgid "What should this routine do each time it runs?"
+msgstr "ماذا يجب أن تفعل هذه المهمة المجدولة في كل تشغيل؟"
+
+#: src/pages/shell/bot-panel.tsx
+msgid "What this bot is for"
+msgstr "الغرض من هذا البوت"
+
+#: src/components/teach/SkillDraftCard.tsx
+msgid "What to return"
+msgstr "ما يجب إرجاعه"
+
+#: src/pages/RoutineEditor.tsx
+msgid "When a webhook fires"
+msgstr "عند تفعيل Webhook"
+
+#: src/pages/RoutineEditor.tsx
+msgid "When to run"
+msgstr "وقت التشغيل"
+
+#: src/components/teach/SkillDraftCard.tsx
+msgid "When to use"
+msgstr "متى تُستخدم"
+
+#: src/pages/HostComputerPrompt.tsx
+msgid "Where should bots run?"
+msgstr "أين يجب أن تعمل البوتات؟"
+
+#: src/lib/ticket-status.ts
+msgid "Won't do"
+msgstr "لن يُنفَّذ"
+
+#: src/lib/roster-status.ts
+#: src/pages/Auth.tsx
+msgid "Working…"
+msgstr "جارٍ العمل…"
+
+#: src/components/computer/TerminalApp.tsx
+msgid "Wrote {path}"
+msgstr "تمت كتابة {path}"
+
+#: src/lib/billing.ts
+msgid "year"
+msgstr "سنة"
+
+#: src/pages/Shell.tsx
+#: src/pages/shell/chat-context.tsx
+msgid "Yesterday"
+msgstr "أمس"
+
+#: src/pages/Shell.tsx
+msgid "You"
+msgstr "أنت"
+
+#: src/pages/McpOAuthCallback.tsx
+msgid "You can close this tab if it does not redirect automatically."
+msgstr "يمكنك إغلاق علامة التبويب هذه إذا لم تتم إعادة التوجيه تلقائيًا."
+
+#: src/pages/McpOAuthCallback.tsx
+msgid "You can close this window."
+msgstr "يمكنك إغلاق هذه النافذة."
+
+#: src/pages/Shell.tsx
+msgid "You have control"
+msgstr "أنت تتحكم الآن"
+
+#: src/pages/Auth.tsx
+msgid "Your email address"
+msgstr "بريدك الإلكتروني"
+
+#: src/pages/Auth.tsx
+msgid "Your name"
+msgstr "اسمك"
+
+#: src/pages/Welcome.tsx
+msgid "Your team of always-on agents<0/>that you can give real work to."
+msgstr "فريقك من الوكلاء الذين يعملون دون توقف<0/>ويمكنك إسناد عمل حقيقي إليهم."
